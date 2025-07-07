@@ -11,6 +11,9 @@ import ProjectsPage from "./pages/projects";
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 
+//import component
+import NavBar from "./components/nav";
+
 //Main app
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +21,7 @@ function App() {
   return (
     <Router>
       <div>
-        <p>Placeholder text for first div</p>
+        <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
