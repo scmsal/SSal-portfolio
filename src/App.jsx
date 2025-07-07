@@ -13,6 +13,7 @@ import ContactPage from "./pages/contact";
 
 //import component
 import NavBar from "./components/nav";
+import Header from "./components/header";
 
 //Main app
 function App() {
@@ -21,7 +22,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavBar />
+        <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
