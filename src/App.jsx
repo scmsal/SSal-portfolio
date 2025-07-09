@@ -1,7 +1,6 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+
+import "./index.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -13,16 +12,12 @@ import ContactPage from "./pages/contact";
 
 //import component
 import NavBar from "./components/nav";
-import Header from "./components/header";
 
 //Main app
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <Router>
       <div>
-        <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

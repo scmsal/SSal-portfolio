@@ -1,4 +1,9 @@
-@layer theme, base, components, utilities;
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities);
+@import "tailwindcss";
+/* @import url("https://fonts.googleapis.com/css?family=Great+Vibes|Merriweather"); */
+
+@theme {
+  --color-dusty-blue: #2f659f;
+  --color-cobalt: #004aad;
+  --color-logo-blue: #4f54be;
+  --radius-5xl: 4rem;
+}
