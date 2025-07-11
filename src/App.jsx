@@ -11,13 +11,14 @@ import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 
 //import component
-import NavBar from "./components/nav";
+import NavBar from "./components/NavBar";
 
 //Main app
 function App() {
   return (
     <Router>
       <div>
+        <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

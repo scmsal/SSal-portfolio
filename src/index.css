@@ -7,3 +7,13 @@
   --color-logo-blue: #4f54be;
   --radius-5xl: 4rem;
 }
+
+@layer base {
+  h1 {
+    @apply text-4xl font-bold text-cobalt;
+  }
+
+  .menulink {
+    @apply text-2xl font-bold hover:text-gray-400;
+  }
+}

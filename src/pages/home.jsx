@@ -1,6 +1,5 @@
 import React from "react";
-import NavBar from "../components/nav";
-import Header from "../components/header";
+import NavBar from "../components/NavBar";
 
 const HomePage = () => {
   console.log("HomePage rendered");
@@ -11,7 +10,6 @@ const HomePage = () => {
     // <div className="bg-linear-to-r/hsl from-indigo-900 from-20%  via-purple-500 via-75% to-pink-500 to-90%">
 
     <div>
-      <Header />
       <h1>This is the home page</h1>
       <h1>Stephanie S</h1>
 
