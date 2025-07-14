@@ -16,4 +16,7 @@
   .menulink {
     @apply text-2xl font-bold hover:text-gray-400;
   }
+  body {
+    @apply text-cobalt;
+  }
 }

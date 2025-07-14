@@ -9,6 +9,7 @@ import HomePage from "./pages/home";
 import ProjectsPage from "./pages/projects";
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
+import Footer from "./components/footer";
 
 //import component
 import NavBar from "./components/NavBar";
@@ -17,14 +18,17 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <Router>
-      <div>
+      <div className="flex flex-col min-h-screen">
         <NavBar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
     </Router>
   );
