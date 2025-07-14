@@ -11,10 +11,10 @@ const HomePage = () => {
     // <div className="bg-linear-to-r/hsl from-indigo-900 from-20%  via-purple-500 via-75% to-pink-500 to-90%">
 
     <div className="flex flex-col" id="main-row">
-      <div className="flex flex-row px-8 w-2/3 items-center" id="main-left">
+      <div className="flex flex-row px-8 items-center" id="main-left">
         <div className="flex-col md:flex-row">
           <div>
-            <h2 className="font-bold text-purple-600 text-5xl text-center">
+            <h2 className="font-bold text-purple-700 text-5xl text-center">
               CODING
             </h2>
             is a <span className="font-bold text-pink-500 text-6xl">CRAFT</span>
@@ -30,7 +30,10 @@ const HomePage = () => {
             to <span className="font-bold text-pink-500 text-6xl">LAUNCH</span>
           </div>
         </div>
-        <p>I am a front-end focused web developer</p>
+        <div>
+          {" "}
+          <p>I am a front-end focused web developer</p>
+        </div>
       </div>
       {/* <div className="px-4 w-1/3 items-center" id="main-right">
         <div className="grid grid-cols-1 gap-2 text-center text-4xl font-mono">
