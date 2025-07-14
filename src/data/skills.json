@@ -1,0 +1,149 @@
+[
+  {
+    "category": "Frontend",
+    "skills": [
+      {
+        "name": "React",
+        "logo": "src/assets/react-logo.svg",
+        "level": 3,
+        "projects": ["Portfolio", "Glossary", "Garden"]
+      },
+      {
+        "name": "Tailwind",
+        "logo": "src/assets/tailwindcss-mark.d52e9897.svg",
+        "level": 3,
+        "projects": ["Portfolio"]
+      },
+      {
+        "name": "HTML",
+        "level": 3,
+        "projects": ["Portfolio", "Glossary", "Garden"]
+      },
+      {
+        "name": "CSS",
+        "level": 3,
+        "projects": ["Portfolio", "Glossary", "Garden"]
+      },
+      {
+        "name": "Vite",
+        "level": 2,
+        "projects": ["Portfolio", "Glossary"]
+      }
+    ]
+  },
+  {
+    "category": "Backend",
+    "skills": [
+      {
+        "name": "Node.js",
+        "level": 3,
+        "projects": ["Glossary", "Garden"]
+      },
+      {
+        "name": "Express",
+        "level": 2,
+        "projects": ["Glossary", "Garden"]
+      },
+      {
+        "name": "MongoDB",
+        "level": 2,
+        "projects": ["Glossary", "Garden"]
+      },
+      {
+        "name": "MySQL",
+        "level": 2,
+        "projects": []
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 2,
+        "projects": []
+      }
+    ]
+  },
+  {
+    "category": "Languages",
+    "skills": [
+      {
+        "name": "JavaScript",
+        "level": 3,
+        "projects": ["Portfolio", "Glossary", "Garden"]
+      },
+      {
+        "name": "TypeScript",
+        "level": 2,
+        "projects": ["Glossary"]
+      },
+      {
+        "name": "Java",
+        "level": 3,
+        "projects": []
+      },
+      {
+        "name": "Python",
+        "level": 1,
+        "projects": []
+      }
+    ]
+  },
+  {
+    "category": "Tools",
+    "skills": [
+      {
+        "name": "Git",
+        "level": 3,
+        "projects": ["Portfolio", "Glossary", "Garden"]
+      },
+      {
+        "name": "VS Code",
+        "level": 3,
+        "projects": []
+      },
+      {
+        "name": "Mocha",
+        "level": 2,
+        "projects": ["Glossary"]
+      },
+      {
+        "name": "Chai",
+        "level": 2,
+        "projects": ["Glossary"]
+      },
+      {
+        "name": "Postman",
+        "level": 3,
+        "projects": ["Glossary"]
+      }
+    ]
+  },
+  {
+    "category": "DevOps and Cloud",
+    "skills": [
+      {
+        "name": "Google Cloud Platform",
+        "level": 2,
+        "projects": []
+      },
+      {
+        "name": "IBM Cloud",
+        "level": 2,
+        "projects": []
+      },
+      {
+        "name": "Oracle Cloud",
+        "level": 2,
+        "projects": []
+      },
+      {
+        "name": "Docker",
+        "level": 2,
+        "projects": ["Glossary"]
+      },
+      {
+        "name": "Kubernetes",
+        "level": 2,
+        "projects": []
+      }
+    ]
+  }
+]
