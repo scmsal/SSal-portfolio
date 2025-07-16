@@ -4,30 +4,39 @@
     "skills": [
       {
         "name": "React",
-        "logo": "src/assets/react-logo.svg",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"]
-      },
-      {
-        "name": "Tailwind",
-        "logo": "src/assets/tailwindcss-mark.d52e9897.svg",
-        "level": 3,
-        "projects": ["Portfolio"]
+        "projects": ["Portfolio", "Glossary", "Garden"],
+        "logo": "src/assets/react.svg"
       },
       {
         "name": "HTML",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"]
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": "src/assets/html.svg"
       },
       {
         "name": "CSS",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"]
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": "src/assets/css.svg"
+      },
+      {
+        "name": "React-Bootstrap",
+        "level": 2,
+        "projects": ["Garden"],
+        "logo": "src/assets/react-bootstrap.svg"
+      },
+      {
+        "name": "TailwindCSS",
+        "level": 2,
+        "projects": ["Portfolio"],
+        "logo": "src/assets/tailwindcss.svg"
       },
       {
         "name": "Vite",
         "level": 2,
-        "projects": ["Portfolio", "Glossary"]
+        "projects": ["Portfolio"],
+        "logo": "src/assets/vite.svg"
       }
     ]
   },
@@ -35,29 +44,40 @@
     "category": "Backend",
     "skills": [
       {
-        "name": "Node.js",
+        "name": "REST APIs",
         "level": 3,
-        "projects": ["Glossary", "Garden"]
+        "projects": ["Glossary", "Garden"],
+        "logo": ""
+      },
+      {
+        "name": "Node.js",
+        "level": 2,
+        "projects": ["Glossary", "Garden"],
+        "logo": "src/assets/nodejs.svg"
       },
       {
         "name": "Express",
         "level": 2,
-        "projects": ["Glossary", "Garden"]
+        "projects": ["Glossary", "Garden"],
+        "logo": "src/assets/express.svg"
       },
       {
         "name": "MongoDB",
         "level": 2,
-        "projects": ["Glossary", "Garden"]
-      },
-      {
-        "name": "MySQL",
-        "level": 2,
-        "projects": []
+        "projects": ["Glossary", "Garden"],
+        "logo": "src/assets/mongodb.svg"
       },
       {
         "name": "PostgreSQL",
-        "level": 2,
-        "projects": []
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/postgresql.svg"
+      },
+      {
+        "name": "MySQL",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/mysql.svg"
       }
     ]
   },
@@ -67,22 +87,26 @@
       {
         "name": "JavaScript",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"]
-      },
-      {
-        "name": "TypeScript",
-        "level": 2,
-        "projects": ["Glossary"]
-      },
-      {
-        "name": "Java",
-        "level": 3,
-        "projects": []
+        "projects": ["All"],
+        "logo": "src/assets/javascript.svg"
       },
       {
         "name": "Python",
+        "level": 2,
+        "projects": ["Glossary"],
+        "logo": "src/assets/python.svg"
+      },
+      {
+        "name": "TypeScript",
         "level": 1,
-        "projects": []
+        "projects": [],
+        "logo": "src/assets/typescript.svg"
+      },
+      {
+        "name": "Java",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/java.svg"
       }
     ]
   },
@@ -92,57 +116,99 @@
       {
         "name": "Git",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"]
+        "projects": ["All"],
+        "logo": "src/assets/git.svg"
       },
       {
         "name": "VS Code",
         "level": 3,
-        "projects": []
+        "projects": ["All"],
+        "logo": "src/assets/vscode.svg"
+      },
+      {
+        "name": "Postman",
+        "level": 2,
+        "projects": ["Glossary", "Garden"],
+        "logo": "src/assets/postman.svg"
       },
       {
         "name": "Mocha",
         "level": 2,
-        "projects": ["Glossary"]
+        "projects": ["Glossary"],
+        "logo": "src/assets/mocha.svg"
       },
       {
         "name": "Chai",
         "level": 2,
-        "projects": ["Glossary"]
+        "projects": ["Glossary"],
+        "logo": "src/assets/chai.svg"
       },
       {
-        "name": "Postman",
-        "level": 3,
-        "projects": ["Glossary"]
+        "name": "WordPress (Theme Rebuild)",
+        "level": 2,
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": "src/assets/wordpress.svg"
+      },
+      {
+        "name": "Bootstrap Blocks",
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": ""
+      },
+      {
+        "name": "CoBlocks",
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": ""
+      },
+      {
+        "name": "Depicter",
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": ""
+      },
+      {
+        "name": "Figma",
+        "level": 1,
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": "src/assets/figma.svg"
       }
     ]
   },
   {
-    "category": "DevOps & Cloud",
+    "category": "DevOps and Cloud",
     "skills": [
       {
-        "name": "Google Cloud",
-        "level": 2,
-        "projects": []
+        "name": "Docker",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/docker.svg"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/gcp.svg"
       },
       {
         "name": "IBM Cloud",
-        "level": 2,
-        "projects": []
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/ibmcloud.svg"
       },
       {
         "name": "Oracle Cloud",
-        "level": 2,
-        "projects": []
-      },
-      {
-        "name": "Docker",
-        "level": 2,
-        "projects": ["Glossary"]
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/oraclecloud.svg"
       },
       {
         "name": "Kubernetes",
-        "level": 2,
-        "projects": []
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/kubernetes.svg"
+      },
+      {
+        "name": "GoDaddy Hosting",
+        "projects": ["GoDaddy WordPress Migration"],
+        "logo": ""
       }
     ]
   }
