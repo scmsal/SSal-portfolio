@@ -22,7 +22,7 @@
       },
       {
         "name": "React-Bootstrap",
-        "level": 2,
+        "level": 3,
         "projects": ["Garden"],
         "logo": "src/assets/react-bootstrap.svg"
       },
@@ -179,7 +179,7 @@
         "logo": "src/assets/chai.svg"
       },
       {
-        "name": "WordPress Theme Customization",
+        "name": "WP Theme Customization",
         "level": 2,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/wordpress.svg"

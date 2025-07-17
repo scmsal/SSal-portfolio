@@ -2,11 +2,11 @@ import React from "react";
 import skillsData from "../data/skills.json";
 
 const ProjectsPage = () => {
-  const levelColorMap = {
-    1: "border-l-4 border-violet-200",
-    2: "border-l-4 border-violet-500",
-    3: "border-l-4 border-violet-800",
-    4: "border-l-4 border-fuchsia-900", // future use
+  const levelMap = {
+    1: "●○○○",
+    2: "●●○○",
+    3: "●●●○",
+    4: "●●●●", // future use
   };
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-4 p-6">
@@ -36,15 +36,13 @@ const ProjectsPage = () => {
                           className="flex items-center justify-between"
                         >
                           <div className="flex items-center ">
-                            <h3
-                              className={`font-bold pr-3 ${levelColorMap[skill.level]}`}
-                            >
-                              {name}
-                            </h3>{" "}
+                            <h3 className={`font-bold pr-3`}>{name}</h3>{" "}
                             {logo && <img className="h-8" src={skill.logo} />}
                           </div>
                           <div className="items-center">
-                            <span className="bg-">{skill.level}</span>
+                            <span className="text-cobalt">
+                              {levelMap[skill.level]}
+                            </span>
                           </div>
                         </li>
                       );
