@@ -3,10 +3,10 @@ import skillsData from "../data/skills.json";
 
 const ProjectsPage = () => {
   const levelColorMap = {
-    1: "border-l-4 border-indigo-300",
-    2: "border-l-4 border-cobalt",
-    3: "border-l-4 border-fuchsia-400",
-    4: "border-l-4 border-fuchsia-700", // future use
+    1: "border-l-4 border-violet-200",
+    2: "border-l-4 border-violet-500",
+    3: "border-l-4 border-violet-800",
+    4: "border-l-4 border-fuchsia-900", // future use
   };
   return (
     <div className="grid grid-cols-1 md:grid-cols-5 gap-4 p-6">
@@ -26,12 +26,12 @@ const ProjectsPage = () => {
                   <h2 className="font-bold text-3xl text-cobalt mb-4">
                     {section.category}
                   </h2>
-                  <div className="flex flex-col gap-4">
+                  <ul className="flex flex-col gap-2">
                     {section.skills.map((skill) => {
                       const name = skill.name;
                       const logo = skill.logo;
                       return (
-                        <div
+                        <li
                           key={name}
                           className="flex items-center justify-between"
                         >
@@ -46,10 +46,10 @@ const ProjectsPage = () => {
                           <div className="items-center">
                             <span className="bg-">{skill.level}</span>
                           </div>
-                        </div>
+                        </li>
                       );
                     })}
-                  </div>
+                  </ul>
                 </div>
               );
             })}
