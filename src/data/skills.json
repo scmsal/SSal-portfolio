@@ -44,7 +44,7 @@
     "category": "Backend",
     "skills": [
       {
-        "name": "REST APIs",
+        "name": "REST",
         "level": 3,
         "projects": ["Glossary", "Garden"],
         "logo": ""
@@ -91,10 +91,10 @@
         "logo": "src/assets/javascript.svg"
       },
       {
-        "name": "Python",
+        "name": "Java",
         "level": 2,
-        "projects": ["Glossary"],
-        "logo": "src/assets/python.svg"
+        "projects": [],
+        "logo": "src/assets/java.svg"
       },
       {
         "name": "TypeScript",
@@ -103,10 +103,45 @@
         "logo": "src/assets/typescript.svg"
       },
       {
-        "name": "Java",
+        "name": "Python",
         "level": 1,
         "projects": [],
-        "logo": "src/assets/java.svg"
+        "logo": "src/assets/python.svg"
+      }
+    ]
+  },
+  {
+    "category": "Cloud",
+    "skills": [
+      {
+        "name": "Google Cloud",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/gcp.svg"
+      },
+      {
+        "name": "IBM Cloud",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/ibmcloud.svg"
+      },
+      {
+        "name": "Oracle Cloud",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/oraclecloud.svg"
+      },
+      {
+        "name": "Docker",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/docker.svg"
+      },
+      {
+        "name": "Kubernetes",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/kubernetes.svg"
       }
     ]
   },
@@ -114,10 +149,10 @@
     "category": "Tools",
     "skills": [
       {
-        "name": "Git",
+        "name": "GitHub (Web/Desktop)",
         "level": 3,
         "projects": ["All"],
-        "logo": "src/assets/git.svg"
+        "logo": "src/assets/github.svg"
       },
       {
         "name": "VS Code",
@@ -144,71 +179,22 @@
         "logo": "src/assets/chai.svg"
       },
       {
-        "name": "WordPress (Theme Rebuild)",
+        "name": "WordPress Theme Customization",
         "level": 2,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/wordpress.svg"
       },
       {
-        "name": "Bootstrap Blocks",
-        "projects": ["GoDaddy WordPress Migration"],
-        "logo": ""
-      },
-      {
-        "name": "CoBlocks",
-        "projects": ["GoDaddy WordPress Migration"],
-        "logo": ""
-      },
-      {
-        "name": "Depicter",
-        "projects": ["GoDaddy WordPress Migration"],
-        "logo": ""
+        "name": "Git (CLI)",
+        "level": 1,
+        "projects": ["All"],
+        "logo": "src/assets/git.svg"
       },
       {
         "name": "Figma",
         "level": 1,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/figma.svg"
-      }
-    ]
-  },
-  {
-    "category": "DevOps and Cloud",
-    "skills": [
-      {
-        "name": "Docker",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/docker.svg"
-      },
-      {
-        "name": "Google Cloud Platform",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/gcp.svg"
-      },
-      {
-        "name": "IBM Cloud",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/ibmcloud.svg"
-      },
-      {
-        "name": "Oracle Cloud",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/oraclecloud.svg"
-      },
-      {
-        "name": "Kubernetes",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/kubernetes.svg"
-      },
-      {
-        "name": "GoDaddy Hosting",
-        "projects": ["GoDaddy WordPress Migration"],
-        "logo": ""
       }
     ]
   }
