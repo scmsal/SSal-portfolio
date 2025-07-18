@@ -23,7 +23,7 @@ const NavBar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "menulink text-gray-500"
+                  ? "menulink text-gray-400"
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >

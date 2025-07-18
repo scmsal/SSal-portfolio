@@ -68,16 +68,16 @@
         "logo": "src/assets/mongodb.svg"
       },
       {
+        "name": "MySQL",
+        "level": 2,
+        "projects": [],
+        "logo": "src/assets/mysql.svg"
+      },
+      {
         "name": "PostgreSQL",
         "level": 1,
         "projects": [],
         "logo": "src/assets/postgresql.svg"
-      },
-      {
-        "name": "MySQL",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/mysql.svg"
       }
     ]
   },
@@ -114,6 +114,12 @@
     "category": "Cloud",
     "skills": [
       {
+        "name": "Oracle Cloud",
+        "level": 2,
+        "projects": [],
+        "logo": "src/assets/oraclecloud.svg"
+      },
+      {
         "name": "Google Cloud",
         "level": 1,
         "projects": [],
@@ -125,12 +131,7 @@
         "projects": [],
         "logo": "src/assets/ibmcloud.svg"
       },
-      {
-        "name": "Oracle Cloud",
-        "level": 1,
-        "projects": [],
-        "logo": "src/assets/oraclecloud.svg"
-      },
+
       {
         "name": "Docker",
         "level": 1,
@@ -146,7 +147,7 @@
     ]
   },
   {
-    "category": "Tools",
+    "category": "Dev Tools",
     "skills": [
       {
         "name": "GitHub (Web/Desktop)",
@@ -162,22 +163,17 @@
       },
       {
         "name": "Postman",
-        "level": 2,
+        "level": 3,
         "projects": ["Glossary", "Garden"],
         "logo": "src/assets/postman.svg"
       },
       {
-        "name": "Mocha",
+        "name": "Mocha + Chai",
         "level": 2,
         "projects": ["Glossary"],
-        "logo": "src/assets/mocha.svg"
+        "logo": "src/assets/mocha_chai.svg"
       },
-      {
-        "name": "Chai",
-        "level": 2,
-        "projects": ["Glossary"],
-        "logo": "src/assets/chai.svg"
-      },
+
       {
         "name": "WP Theme Customization",
         "level": 2,
@@ -195,6 +191,29 @@
         "level": 1,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/figma.svg"
+      }
+    ]
+  },
+  {
+    "category": "AI Tools",
+    "skills": [
+      {
+        "name": "Copilot",
+        "level": 3,
+        "projects": ["All"],
+        "logo": ""
+      },
+      {
+        "name": "ChatGPT",
+        "level": 3,
+        "projects": ["All"],
+        "logo": ""
+      },
+      {
+        "name": "Google AI Studio",
+        "level": 2,
+        "projects": ["Garden"],
+        "logo": []
       }
     ]
   }

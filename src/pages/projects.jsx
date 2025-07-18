@@ -9,24 +9,28 @@ const ProjectsPage = () => {
     4: "●●●●", // future use
   };
   return (
-    <div className="grid grid-cols-1 md:grid-cols-5 gap-4 p-6">
-      <div className="grid md:col-span-3">
+    <div className="p-6">
+      {/* Projects */}
+      <div className="md:col-span-2">
+        <h1 className="text-center">Projects</h1>
+      </div>
+      <div className="">
         <h1 className="text-center mb-4">Tech Stack</h1>
         <div className="">
           {/* Tech Stack */}
 
           {/* grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 */}
-          <div className="flex flex-wrap gap-6">
+          <div className="flex flex-wrap justify-center gap-6">
             {skillsData.map((section) => {
               return (
                 <div
-                  className="text-left md:min-w-10 border border-b-dusty-blue p-4 rounded"
+                  className="text-center md:min-w-1 shadow-md p-2 rounded"
                   key="section.category"
                 >
-                  <h2 className="font-bold text-3xl text-cobalt mb-4">
+                  <h2 className="font-bold text-2xl text-cobalt mb-4">
                     {section.category}
                   </h2>
-                  <ul className="flex flex-col gap-2">
+                  <ul className="flex flex-col">
                     {section.skills.map((skill) => {
                       const name = skill.name;
                       const logo = skill.logo;
@@ -37,7 +41,7 @@ const ProjectsPage = () => {
                         >
                           <div className="flex items-center ">
                             <h3 className={`font-bold pr-3`}>{name}</h3>{" "}
-                            {logo && <img className="h-8" src={skill.logo} />}
+                            {/* {logo && <img className="h-6" src={skill.logo} />} */}
                           </div>
                           <div className="items-center">
                             <span className="text-cobalt">
@@ -53,10 +57,6 @@ const ProjectsPage = () => {
             })}
           </div>
         </div>
-      </div>
-      {/* Projects */}
-      <div className="md:col-span-2">
-        <h1 className="text-center">Projects</h1>
       </div>
     </div>
   );
