@@ -44,8 +44,8 @@
     "category": "Backend",
     "skills": [
       {
-        "name": "REST",
-        "level": 3,
+        "name": "REST APIs",
+        "level": 2,
         "projects": ["Glossary", "Garden"],
         "logo": ""
       },
@@ -121,17 +121,22 @@
       },
       {
         "name": "Google Cloud",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/gcp.svg"
       },
       {
         "name": "IBM Cloud",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/ibmcloud.svg"
       },
-
+      {
+        "name": "AWS",
+        "level": 1,
+        "projects": [],
+        "logo": "src/assets/gcp.svg"
+      },
       {
         "name": "Docker",
         "level": 1,
@@ -159,7 +164,13 @@
         "name": "VS Code",
         "level": 3,
         "projects": ["All"],
-        "logo": "src/assets/vscode.svg"
+        "logo": "src/assets/vscode_eclipse.svg"
+      },
+      {
+        "name": "Eclipse",
+        "level": 3,
+        "projects": ["All"],
+        "logo": "src/assets/eclipse.svg"
       },
       {
         "name": "Postman",
@@ -191,6 +202,13 @@
         "level": 1,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/figma.svg"
+      },
+      {
+        "name": "Jupyter Notebooks",
+        "level": 1,
+        "projects": ["oracle_genai_course"],
+        "trainings": ["oci_genai_2024"],
+        "logo": "src/assets/jupyter.svg"
       }
     ]
   },
@@ -200,7 +218,7 @@
       {
         "name": "Copilot",
         "level": 3,
-        "projects": ["All"],
+        "projects": [],
         "logo": ""
       },
       {
@@ -210,10 +228,22 @@
         "logo": ""
       },
       {
+        "name": "Gemini",
+        "level": 3,
+        "projects": [],
+        "logo": ""
+      },
+      {
         "name": "Google AI Studio",
         "level": 2,
         "projects": ["Garden"],
         "logo": []
+      },
+      {
+        "name": "Canva AI",
+        "level": 2,
+        "projects": [],
+        "logo": ""
       }
     ]
   }

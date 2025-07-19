@@ -1,0 +1,40 @@
+{
+  "Portfolio": {
+    "skills": ["react", "tailwindcss", "vite"]
+  },
+  "Glossary": {
+    "skills": [
+      "react",
+      "rest",
+      "nodejs",
+      "express",
+      "mongodb",
+      "mocha_chai",
+      "postman"
+    ]
+  },
+  "Garden": {
+    "skills": [
+      "react",
+      "rest",
+      "nodejs",
+      "express",
+      "mongodb",
+      "react_bootstrap",
+      "google_ai_studio"
+    ]
+  },
+  "GoDaddy WordPress Migration": {
+    "skills": ["html", "css", "figma", "wp_theme"]
+  },
+
+  "FS Certificate Portfolio": {
+    "title": "FS Certificate Portfolio",
+    "type": "e-portfolio",
+    "source": "Full Stack Software Development (2025, UT Austin + Great Learning)",
+    "trainingId": "fsd_ut_2025",
+    "skillsFromTraining": true,
+    "customSkills": ["tailwindcss", "vite"],
+    "description": "Collection of assignment projects completed during the full stack program."
+  }
+}

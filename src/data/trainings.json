@@ -1,0 +1,46 @@
+{
+  "fsd_ut_2025": {
+    "title": "Full Stack Software Development (2025, UT Austin + Great Learning)",
+    "skills": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "nodejs",
+      "express",
+      "mongodb",
+      "mysql",
+      "rest",
+      "mocha_chai",
+      "git"
+    ]
+  },
+  "oci_genai_2024": {
+    "title": "OCI Generative AI Professional (2024, Oracle)",
+    "skills": ["oraclecloud", "generative_ai", "python"]
+  },
+  "ccc_js_2024": {
+    "title": "JavaScript (2024, Creating Coding Careers)",
+    "skills": ["javascript"]
+  },
+  "java_cert_uc3m_2023": {
+    "title": "Intro to Java Programming (2023, UC3M, edX)",
+    "skills": ["java"]
+  },
+  "oci_foundations_2023": {
+    "title": "OCI Foundations Associate (2023, Oracle)",
+    "skills": ["oraclecloud"]
+  },
+  "ibm_web_2022": {
+    "title": "Intro to Web Dev (2022, IBM)",
+    "skills": ["html", "css", "javascript"]
+  },
+  "ibm_cloud_2022": {
+    "title": "Intro to Cloud Computing (2022, IBM)",
+    "skills": ["ibmcloud"]
+  },
+  "self_study": {
+    "title": "Self Study",
+    "skills": ["googlecloud", "docker", "kubernetes"]
+  }
+}
