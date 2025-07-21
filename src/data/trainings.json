@@ -1,6 +1,6 @@
 [
   {
-    "title": "Full Stack Software Development",
+    "title": "Full Stack Software Dev",
     "details": "(2025, UT Austin + Great Learning)",
     "type": "Professional Certificate",
     "skills": [
@@ -18,15 +18,15 @@
     ]
   },
   {
-    "title": "OCI Generative AI Professional",
+    "title": "OCI Generative AI",
     "details": "(2024, Oracle)",
     "type": "course + certification exam",
     "skills": ["oraclecloud", "generative_ai", "python"]
   },
   {
-    "title": "Pre-apprenticeship Program",
+    "title": "Pre-apprenticeship",
     "details": "(2024, Creating Coding Careers)",
-    "type": "3 courses",
+    "type": "",
     "skills": ["javascript"]
   },
   {
@@ -36,13 +36,13 @@
     "skills": ["java"]
   },
   {
-    "title": "OCI Foundations Associate ",
+    "title": "OCI Foundations Associate",
     "details": "(2023, Oracle)",
     "type": "course + certification exam",
     "skills": ["oraclecloud"]
   },
   {
-    "title": "Intro to Web Dev ",
+    "title": "Intro to Web Dev",
     "details": "(2022, IBM, edX)",
     "type": "course",
     "skills": ["html", "css", "javascript"]
