@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import modelIcon from "../assets/modeling_flaticon.png";
+import modelIcon from "../../public/assets/modeling_flaticon.png";
+import knittingImage from "../assets/Gemini_Generated_Image_knitting.png";
 
 const HomePage = () => {
   console.log("HomePage rendered");
@@ -31,8 +32,8 @@ const HomePage = () => {
           </div>
         </div>
         <div>
-          {" "}
           <p>I am a front-end focused web developer</p>
+          <img src={knittingImage} className="h-30" />
         </div>
       </div>
       {/* <div className="px-4 w-1/3 items-center" id="main-right">

@@ -1,6 +1,8 @@
-{
-  "fsd_ut_2025": {
-    "title": "Full Stack Software Development (2025, UT Austin + Great Learning)",
+[
+  {
+    "title": "Full Stack Software Development",
+    "details": "(2025, UT Austin + Great Learning)",
+    "type": "Professional Certificate",
     "skills": [
       "html",
       "css",
@@ -15,32 +17,46 @@
       "git"
     ]
   },
-  "oci_genai_2024": {
-    "title": "OCI Generative AI Professional (2024, Oracle)",
+  {
+    "title": "OCI Generative AI Professional",
+    "details": "(2024, Oracle)",
+    "type": "course + certification exam",
     "skills": ["oraclecloud", "generative_ai", "python"]
   },
-  "ccc_js_2024": {
-    "title": "JavaScript (2024, Creating Coding Careers)",
+  {
+    "title": "Pre-apprenticeship Program",
+    "details": "(2024, Creating Coding Careers)",
+    "type": "3 courses",
     "skills": ["javascript"]
   },
-  "java_cert_uc3m_2023": {
-    "title": "Intro to Java Programming (2023, UC3M, edX)",
+  {
+    "title": "Intro to Java Programming ",
+    "details": "(2023, UC3M, edX)",
+    "type": "Professional Certificate: 3 courses",
     "skills": ["java"]
   },
-  "oci_foundations_2023": {
-    "title": "OCI Foundations Associate (2023, Oracle)",
+  {
+    "title": "OCI Foundations Associate ",
+    "details": "(2023, Oracle)",
+    "type": "course + certification exam",
     "skills": ["oraclecloud"]
   },
-  "ibm_web_2022": {
-    "title": "Intro to Web Dev (2022, IBM)",
+  {
+    "title": "Intro to Web Dev ",
+    "details": "(2022, IBM, edX)",
+    "type": "course",
     "skills": ["html", "css", "javascript"]
   },
-  "ibm_cloud_2022": {
-    "title": "Intro to Cloud Computing (2022, IBM)",
+  {
+    "title": "Intro to Cloud Computing",
+    "details": "(2022, IBM, edX)",
+    "type": "course",
     "skills": ["ibmcloud"]
   },
-  "self_study": {
+  {
     "title": "Self Study",
+    "details": "[]",
+    "type": "documentation, tutorials, practice",
     "skills": ["googlecloud", "docker", "kubernetes"]
   }
-}
+]

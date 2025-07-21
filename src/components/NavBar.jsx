@@ -6,13 +6,13 @@ const NavBar = () => {
   return (
     <div
       id="NavBar"
-      className="flex items-center justify-between h-24  text-cobalt pr-5 mb-5 shadow"
+      className="flex items-center justify-between h-18  text-cobalt pr-5 mb-2 shadow"
     >
       <NavLink to="/">
         <img
           src="./S_purple-pink-cropped.png"
           alt="logo"
-          className="h-20 object-contain rounded-lg mx-5 my-5 justify-end"
+          className="h-14 object-contain rounded-lg mx-4 my-4 justify-end"
         ></img>
       </NavLink>
       {/* Menu - visible on desktop */}

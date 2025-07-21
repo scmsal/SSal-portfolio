@@ -10,6 +10,7 @@ import ProjectsPage from "./pages/projects";
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
 import Footer from "./components/footer";
+import SkillsPage from "./pages/skills_projects_vertical";
 
 //import component
 import NavBar from "./components/NavBar";
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/skills" element={<SkillsPage />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </main>
