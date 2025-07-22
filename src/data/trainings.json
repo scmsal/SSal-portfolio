@@ -30,7 +30,7 @@
     "skills": ["javascript"]
   },
   {
-    "title": "Intro to Java Programming ",
+    "title": "Intro to Java Programming",
     "details": "(2023, UC3M, edX)",
     "type": "Professional Certificate: 3 courses",
     "skills": ["java"]
@@ -55,8 +55,8 @@
   },
   {
     "title": "Self Study",
-    "details": "[]",
-    "type": "documentation, tutorials, practice",
+    "details": "documentation + tutorials",
+    "type": "",
     "skills": ["googlecloud", "docker", "kubernetes"]
   }
 ]

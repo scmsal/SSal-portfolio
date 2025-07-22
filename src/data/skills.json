@@ -45,13 +45,13 @@
     "skills": [
       {
         "name": "REST APIs",
-        "level": 2,
+        "level": 3,
         "projects": ["Glossary", "Garden"],
         "logo": ""
       },
       {
         "name": "Node.js",
-        "level": 2,
+        "level": 3,
         "projects": ["Glossary", "Garden"],
         "logo": "src/assets/nodejs.svg"
       },
@@ -133,19 +133,19 @@
       },
       {
         "name": "AWS",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/gcp.svg"
       },
       {
         "name": "Docker",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/docker.svg"
       },
       {
         "name": "Kubernetes",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/kubernetes.svg"
       }
@@ -193,13 +193,13 @@
       },
       {
         "name": "Git (CLI)",
-        "level": 1,
+        "level": 2,
         "projects": ["All"],
         "logo": "src/assets/git.svg"
       },
       {
         "name": "Figma",
-        "level": 1,
+        "level": 2,
         "projects": ["GoDaddy WordPress Migration"],
         "logo": "src/assets/figma.svg"
       },
