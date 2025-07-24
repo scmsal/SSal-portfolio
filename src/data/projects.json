@@ -2,7 +2,7 @@
   {
     "name": "Portfolio",
     "description": "",
-    "skills": ["react", "tailwindcss", "vite"],
+    "skills": ["React", "TailwindCSS", "Vite"],
     "github": "",
     "browser": ""
   },
@@ -10,13 +10,13 @@
     "name": "Glossary",
     "description": "",
     "skills": [
-      "react",
-      "rest",
-      "nodejs",
-      "express",
-      "mongodb",
-      "mocha_chai",
-      "postman"
+      "React",
+      "REST API",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Mocha + Chai",
+      "Postman"
     ],
     "github": "",
     "browser": ""
@@ -25,13 +25,13 @@
     "name": "Gardening App",
     "description": "",
     "skills": [
-      "react",
-      "rest",
-      "nodejs",
-      "express",
-      "mongodb",
-      "react_bootstrap",
-      "google_ai_studio"
+      "React",
+      "REST API",
+      "NodeJS",
+      "Express",
+      "MongoDB",
+      "Bootstrap",
+      "Google AI Studio"
     ],
     "github": "",
     "browser": ""
@@ -39,7 +39,7 @@
   {
     "name": "GoDaddy WordPress Migration",
     "description": "",
-    "skills": ["html", "css", "figma", "wp_theme"],
+    "skills": ["HTML", "CSS", "Figma", "WP Them Customization"],
     "github": "",
     "browser": ""
   },
@@ -47,7 +47,7 @@
     "name": "FS Certificate Portfolio",
     "description": "Collection of assignment projects completed during the full stack program.",
     "skillsFromTraining": true,
-    "customSkills": ["tailwindcss", "vite"],
+    "customSkills": ["TailwindCSS", "Vite"],
     "trainingId": "fsd_ut_2025",
     "type": "e-portfolio",
     "source": "Full Stack Software Development (2025, UT Austin + Great Learning)",
@@ -57,28 +57,28 @@
   {
     "name": "Legacy Portfolio Website",
     "description": "Created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, and fonts. It is still a work in progress.",
-    "skills": ["html", "css", "javascript"],
+    "skills": ["HTML", "CSS", "Javascript"],
     "github": "",
     "browser": ""
   },
   {
     "name": "Calculator",
     "description": "Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. I merged it with another project, a simple interest calculator.",
-    "skills": ["javascript", "html", "css"],
+    "skills": ["Javascript", "HTML", "CSS"],
     "github": "",
     "browser": ""
   },
   {
-    "name": "Java Projects",
+    "name": "Java Palindrome Checker",
     "description": "Created an application to solve different Java problems with a shared parser class. Still refactoring and adding problem classes.",
-    "skills": ["java"],
+    "skills": ["Java"],
     "github": "",
     "browser": ""
   },
   {
     "name": "Codewars Kata",
     "description": "Developed short Java programs to solve scenarios created by other users.",
-    "skills": ["java"],
+    "skills": ["Java"],
     "github": "",
     "browser": ""
   }
