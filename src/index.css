@@ -10,13 +10,24 @@
 
 @layer base {
   h1 {
-    @apply text-4xl font-bold text-cobalt;
+    @apply text-4xl font-bold;
+  }
+
+  h2 {
+    @apply text-3xl font-bold;
   }
 
   .menulink {
     @apply text-2xl font-bold hover:text-gray-400;
   }
+
   body {
     @apply text-cobalt;
+  }
+}
+
+@layer utilities {
+  .writing-vertical-rl {
+    writing-mode: vertical-rl;
   }
 }
