@@ -1,6 +1,6 @@
-import skills from "../data/skills.json";
-import projects from "../data/projects.json";
-import trainings from "../data/trainings.json";
+import skillsData from "../data/skills.json";
+import projectsData from "../data/projects.json";
+import trainingsData from "../data/trainings.json";
 import { NavLink } from "react-router-dom";
 import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import { useState, useEffect } from "react";
@@ -22,37 +22,38 @@ const SkillsPage = () => {
   const [selectedTraining, setSelectedTraining] = useState("");
   const [selectedProject, setSelectedProject] = useState("");
 
-  let isHighlighted;
-
   const projectClickHandler = (project) => {
-    event.preventDefault();
     console.log("projectClickHandler ran");
     setSelectedProject(project === selectedProject ? null : project);
-    skills.map((category) => {
-      category.skills.map((skill) => {
-        isHighlighted = selectedProject?.skills.includes(skill.name);
-        console.log(skill.name, { isHighlighted });
-      });
-    });
+    setSelectedTraining(null);
+    setSelectedSkill(null);
   };
 
   const skillClickHandler = (skill) => {
-    setSelectedSkill(skill);
+    setSelectedSkill(skill === selectedSkill ? null : skill);
+    setSelectedTraining(null);
+    setSelectedProject(null);
   };
 
   const trainingClickHandler = (training) => {
-    setSelectedTraining(training);
+    setSelectedTraining(training === selectedTraining ? null : training);
+    setSelectedProject(null);
+    setSelectedSkill(null);
   };
 
   return (
     <div className="grid grid-cols-3 gap-2 p-4">
       {/* Tech Stack */}
       <div className="col-span-2">
-        <h1 className="text-center mb-3">Tech Stack Skills</h1>
+        <span className="flex justify-center">
+          <h1 className="text-center mb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 from-10% via-violet-500 via-40% via-indigo-500 via-60% to-cobalt">
+            Tech Stack Skills
+          </h1>
+        </span>
         <div className="">
           {/* grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 */}
           <div className="flex flex-wrap justify-left gap-4">
-            {skills.map((section) => {
+            {skillsData.map((section) => {
               return (
                 <div
                   className="text-center w-2xs shadow-md p-2 rounded"
@@ -68,15 +69,15 @@ const SkillsPage = () => {
                       return (
                         <li
                           key={name}
-                          className="flex items-center justify-between"
+                          onClick={() => {
+                            console.log("skill clicked", { skill });
+                            skillClickHandler(skill);
+                          }}
+                          className={`flex items-center justify-between px-1 ${selectedSkill === skill ? "bg-violet-200 border border-cobalt border-3 rounded-sm" : ""}`}
                         >
-                          <div className="flex items-center ">
+                          <div className="flex items-center">
                             <h3
-                              className={`font-bold pr-3 cursor-pointer ${isHighlighted ? "bg-violet-700 text-white" : ""}`}
-                              onClick={() => {
-                                console.log("skill clicked", { skill });
-                                skillClickHandler(skill);
-                              }}
+                              className={`font-bold  cursor-pointer ${selectedProject?.skills?.includes(skill.name) ? "bg-violet-200" : ""} `}
                             >
                               {name}
                             </h3>
@@ -108,11 +109,15 @@ const SkillsPage = () => {
             })}
           </div>
         </div>
+        <span className="text-gray-700">
+          Click a skill, training, or project to see associations. Click again
+          to deselect.
+        </span>
       </div>
 
       <div className="col-span-1 flex flex-col justify-around">
         <div className="mb-3">
-          <h1 className="mb-3">...learned in:</h1>
+          <h2 className="mb-3">...learned in:</h2>
           <div className="flex flex-wrap justify-center gap-3">
             <span className="text-gray-600">
               Programs and courses where I learned these skills.
@@ -124,11 +129,11 @@ const SkillsPage = () => {
               />
             </NavLink>
 
-            {trainings.map((training) => {
+            {trainingsData.map((training) => {
               return (
                 <span
                   key={training.title}
-                  className={`border ${isHighlighted ? "border-violet-500 bg-violet-700 text-white" : "border-cobalt"} rounded-full px-2 cursor-pointer mb-1`}
+                  className={`border ${selectedSkill?.trainings?.includes(training.title) ? "border-violet-500 bg-violet-200" : "border-cobalt"} rounded-full px-3 cursor-pointer mb-1 ${selectedTraining === training ? "bg-blue-200 border border-cobalt border-3 rounded-sm" : ""}}`}
                   title={training.details}
                   onClick={() => {
                     console.log("training clicked", training);
@@ -144,7 +149,7 @@ const SkillsPage = () => {
         </div>
         <div className="col-span-1 flex flex-col justify-around">
           <div className="mb-3">
-            <h1 className="mb-3">...applied in:</h1>
+            <h2 className="mb-3">...applied in:</h2>
             <div className="flex flex-wrap justify-center gap-3">
               <span className="text-gray-600">
                 Projects in which I used these skills.
@@ -158,11 +163,11 @@ const SkillsPage = () => {
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
-            {projects.map((project) => {
+            {projectsData.map((project) => {
               return (
                 <span
                   key={project.name}
-                  className={`border ${isHighlighted ? "border-violet-500 bg-violet-700 text-white" : "border-cobalt"} rounded-full px-2 cursor-pointer mb-1`}
+                  className={`border ${selectedSkill?.projects?.includes(project.name) ? "border-violet-500 bg-violet-200" : "border-cobalt"} rounded-full px-2 cursor-pointer mb-1`}
                   onClick={() => {
                     console.log("project clicked", project);
                     projectClickHandler(project);
