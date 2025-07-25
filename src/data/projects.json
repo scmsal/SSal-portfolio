@@ -1,7 +1,7 @@
 [
   {
-    "name": "Portfolio",
-    "description": "",
+    "name": "Portfolio 2.0",
+    "description": "This website you're currently viewing. I built it with Vite and React, and used it to learn TailwindCSS.",
     "skills": ["React", "TailwindCSS", "Vite"],
     "github": "",
     "browser": ""
@@ -55,8 +55,8 @@
     "browser": ""
   },
   {
-    "name": "Legacy Portfolio Website",
-    "description": "Created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, and fonts. It is still a work in progress.",
+    "name": "Portfolio 1.0",
+    "description": "This was the first portfolio web page I created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, images, and fonts.",
     "skills": ["HTML", "CSS", "Javascript"],
     "github": "",
     "browser": ""

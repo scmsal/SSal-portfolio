@@ -5,25 +5,45 @@
       {
         "name": "React",
         "level": 3,
-        "projects": ["Portfolio", "Glossary", "Garden"],
+        "projects": [
+          "Portfolio 2.0",
+          "Glossary",
+          "Gardening App",
+          "FS Certificate Portfolio"
+        ],
+        "trainings": [],
         "logo": "src/assets/react.svg"
       },
       {
         "name": "HTML",
         "level": 3,
-        "projects": ["GoDaddy WordPress Migration"],
+        "projects": [
+          "GoDaddy WordPress Migration",
+          "Portfolio 1.0",
+          "Portfolio 2.0",
+          "Calculator",
+          "FS Certificate Portfolio"
+        ],
+        "trainings": ["Intro to Web Dev", "Full Stack Software Dev"],
         "logo": "src/assets/html.svg"
       },
       {
         "name": "CSS",
         "level": 3,
-        "projects": ["GoDaddy WordPress Migration"],
+        "projects": [
+          "GoDaddy WordPress Migration",
+          "Calculator",
+          "FS Certificate Portfolio",
+          "Portfolio 1.0",
+          "Portfolio 2.0",
+          "Gardening App"
+        ],
         "logo": "src/assets/css.svg"
       },
       {
         "name": "React-Bootstrap",
         "level": 3,
-        "projects": ["Garden"],
+        "projects": ["Gardening App"],
         "logo": "src/assets/react-bootstrap.svg"
       },
       {
@@ -35,7 +55,7 @@
       {
         "name": "Vite",
         "level": 2,
-        "projects": ["Portfolio"],
+        "projects": ["Portfolio", "Gardening App"],
         "logo": "src/assets/vite.svg"
       }
     ]
@@ -46,38 +66,48 @@
       {
         "name": "REST APIs",
         "level": 3,
-        "projects": ["Glossary", "Garden"],
-        "logo": ""
+        "projects": ["Glossary", "Gardening App"],
+        "logo": "",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "Node.js",
         "level": 3,
-        "projects": ["Glossary", "Garden"],
-        "logo": "src/assets/nodejs.svg"
+        "projects": ["Glossary", "Gardening App"],
+        "logo": "src/assets/nodejs.svg",
+        "trainings": [
+          "Full Stack Software Dev",
+          "Independent Study",
+          "Pre-apprenticeship"
+        ]
       },
       {
         "name": "Express",
         "level": 2,
-        "projects": ["Glossary", "Garden"],
-        "logo": "src/assets/express.svg"
+        "projects": ["Glossary", "Gardening App"],
+        "logo": "src/assets/express.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "MongoDB",
         "level": 2,
-        "projects": ["Glossary", "Garden"],
-        "logo": "src/assets/mongodb.svg"
+        "projects": ["Glossary", "Gardening App"],
+        "logo": "src/assets/mongodb.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "MySQL",
         "level": 2,
-        "projects": [],
-        "logo": "src/assets/mysql.svg"
+        "projects": ["FS Certificate Portfolio"],
+        "logo": "src/assets/mysql.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "PostgreSQL",
         "level": 1,
-        "projects": [],
-        "logo": "src/assets/postgresql.svg"
+        "projects": [""],
+        "logo": "src/assets/postgresql.svg",
+        "trainings": ["Independent Study"]
       }
     ]
   },
@@ -87,26 +117,41 @@
       {
         "name": "JavaScript",
         "level": 3,
-        "projects": ["All"],
-        "logo": "src/assets/javascript.svg"
+        "projects": [
+          "Portfolio 2.0",
+          "Glossary",
+          "Gardening App",
+          "FS Certificate Portfolio",
+          "Calculator",
+          "Portfolio 1.0"
+        ],
+        "logo": "src/assets/javascript.svg",
+        "trainings": [
+          "Intro to Web Dev",
+          "Full Stack Software Dev",
+          "CCC Pre-apprenticeship"
+        ]
       },
       {
         "name": "Java",
         "level": 2,
-        "projects": [],
-        "logo": "src/assets/java.svg"
+        "projects": ["Palindrome Checker"],
+        "logo": "src/assets/java.svg",
+        "trainings": ["Intro to Java Programming"]
       },
       {
         "name": "TypeScript",
         "level": 1,
         "projects": [],
-        "logo": "src/assets/typescript.svg"
+        "logo": "src/assets/typescript.svg",
+        "trainings": ["Full Stack Software Dev", "Independent Study"]
       },
       {
         "name": "Python",
         "level": 1,
         "projects": [],
-        "logo": "src/assets/python.svg"
+        "logo": "src/assets/python.svg",
+        "trainings": ["MLH Event", "Independent Study"]
       }
     ]
   },
@@ -117,37 +162,51 @@
         "name": "Oracle Cloud",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/oraclecloud.svg"
+        "logo": "src/assets/oraclecloud.svg",
+        "trainings": ["OCI Generative AI", "OCI Foundations Associate"]
       },
       {
         "name": "Google Cloud",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/gcp.svg"
+        "logo": "src/assets/gcp.svg",
+        "trainings": ["Independent Study"]
       },
       {
         "name": "IBM Cloud",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/ibmcloud.svg"
+        "logo": "src/assets/ibmcloud.svg",
+        "trainings": ["Intro to Cloud Computing"]
       },
       {
         "name": "AWS",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/gcp.svg"
+        "logo": "src/assets/gcp.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "Docker",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/docker.svg"
+        "logo": "src/assets/docker.svg",
+        "trainings": [
+          "Full Stack Software Dev",
+          "Intro to Cloud Computing",
+          "OCI Foundations Associate"
+        ]
       },
       {
         "name": "Kubernetes",
         "level": 2,
         "projects": [],
-        "logo": "src/assets/kubernetes.svg"
+        "logo": "src/assets/kubernetes.svg",
+        "trainings": [
+          "Full Stack Software Dev",
+          "Intro to Cloud Computing",
+          "OCI Foundations Associate"
+        ]
       }
     ]
   },
@@ -158,57 +217,64 @@
         "name": "GitHub (Web/Desktop)",
         "level": 3,
         "projects": ["All"],
-        "logo": "src/assets/github.svg"
+        "logo": "src/assets/github.svg",
+        "trainings": ["Full Stack Software Dev", "Independent Study"]
       },
       {
         "name": "VS Code",
         "level": 3,
-        "projects": ["All"],
-        "logo": "src/assets/vscode_eclipse.svg"
+        "projects": [""],
+        "logo": "src/assets/vscode_eclipse.svg",
+        "trainings": ["Full Stack Software Dev", "Intro to Web Dev"]
       },
       {
         "name": "Eclipse",
         "level": 3,
-        "projects": ["All"],
-        "logo": "src/assets/eclipse.svg"
+        "projects": ["Java Palindrome Checker"],
+        "logo": "src/assets/eclipse.svg",
+        "trainings": ["Intro to Java Programming"]
       },
       {
         "name": "Postman",
         "level": 3,
         "projects": ["Glossary", "Garden"],
-        "logo": "src/assets/postman.svg"
+        "logo": "src/assets/postman.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "Mocha + Chai",
         "level": 2,
         "projects": ["Glossary"],
-        "logo": "src/assets/mocha_chai.svg"
+        "logo": "src/assets/mocha_chai.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
-
       {
         "name": "WP Theme Customization",
         "level": 2,
         "projects": ["GoDaddy WordPress Migration"],
-        "logo": "src/assets/wordpress.svg"
+        "logo": "src/assets/wordpress.svg",
+        "trainings": ["Independent Study"]
       },
       {
         "name": "Git (CLI)",
         "level": 2,
         "projects": ["All"],
-        "logo": "src/assets/git.svg"
+        "logo": "src/assets/git.svg",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "Figma",
         "level": 2,
         "projects": ["GoDaddy WordPress Migration"],
-        "logo": "src/assets/figma.svg"
+        "logo": "src/assets/figma.svg",
+        "trainings": ["MLH Event", "Independent Study"]
       },
       {
         "name": "Jupyter Notebooks",
         "level": 1,
         "projects": ["oracle_genai_course"],
-        "trainings": ["oci_genai_2024"],
-        "logo": "src/assets/jupyter.svg"
+        "logo": "src/assets/jupyter.svg",
+        "trainings": ["OCI Generative AI", "MLH Event"]
       }
     ]
   },
@@ -219,31 +285,36 @@
         "name": "Copilot",
         "level": 3,
         "projects": [],
-        "logo": ""
+        "logo": "",
+        "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "ChatGPT",
         "level": 3,
         "projects": ["All"],
-        "logo": ""
+        "logo": "",
+        "trainings": ["Independent Study"]
       },
       {
         "name": "Gemini",
         "level": 3,
         "projects": [],
-        "logo": ""
+        "logo": "",
+        "trainings": ["MLH Event"]
       },
       {
         "name": "Google AI Studio",
         "level": 2,
         "projects": ["Garden"],
-        "logo": []
+        "logo": [],
+        "trainings": ["MLH Event"]
       },
       {
         "name": "Canva AI",
         "level": 2,
         "projects": [],
-        "logo": ""
+        "logo": "",
+        "trainings": ["Independent Study"]
       }
     ]
   }

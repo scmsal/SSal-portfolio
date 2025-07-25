@@ -24,7 +24,7 @@
     "skills": ["Oracle Cloud", "Generative AI", "Python"]
   },
   {
-    "title": "Pre-apprenticeship",
+    "title": "CCC Pre-apprenticeship",
     "details": "(2024, Creating Coding Careers)",
     "type": "",
     "skills": ["Javascript"]
@@ -54,9 +54,15 @@
     "skills": ["IBM Cloud"]
   },
   {
-    "title": "Self Study",
-    "details": "documentation + tutorials",
-    "type": "",
-    "skills": ["Google Cloud", "Docker", "Kubernetes"]
+    "title": "Independent Study",
+    "details": "online resources",
+    "type": "documentation, tutorials, articles, self-paced courses",
+    "skills": [
+      "Google Cloud",
+      "Docker",
+      "Kubernetes",
+      "TailwindCSS",
+      "PostgreSQL"
+    ]
   }
 ]
