@@ -29,10 +29,12 @@ const HomePage = () => {
             that takes ideas from{" "}
             <span className="font-bold text-indigo-500 text-4xl">CONCEPT</span>{" "}
             to <span className="font-bold text-pink-500 text-6xl">LAUNCH</span>
+            <span>and beyond</span>
           </div>
         </div>
         <div>
-          <p>I am a front-end focused web developer</p>
+          <h1>Hello!</h1>
+          <p>I am a frontend focused web developer</p>
           <img src={knittingImage} className="h-30" />
         </div>
       </div>
