@@ -1,38 +1,49 @@
 [
   {
-    "title": "Full Stack Software Dev",
+    "title": "Full Stack Software Dev Cert",
     "details": "(2025, UT Austin + Great Learning)",
     "type": "Professional Certificate",
     "skills": [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
       "React",
       "NodeJS",
       "Express",
       "MongoDB",
       "MySQL",
-      "REST API",
+      "REST APIs",
       "Mocha + Chai",
-      "Git"
+      "Git",
+      "TypeScript",
+      "Node.js",
+      "React-Bootstrap",
+      "Vite",
+      "VS Code",
+      "Postman",
+      "GitHub (Web/Desktop)",
+      "Git (CLI)",
+      "Copilot",
+      "AWS"
     ]
   },
   {
-    "title": "OCI Generative AI",
-    "details": "(2024, Oracle)",
-    "type": "course + certification exam",
-    "skills": ["Oracle Cloud", "Generative AI", "Python"]
+    "title": "Intro to Web Dev",
+    "details": "(2022, IBM, edX)",
+    "type": "course",
+    "skills": ["HTML", "CSS", "JavaScript"]
   },
   {
-    "title": "CCC Pre-apprenticeship",
-    "details": "(2024, Creating Coding Careers)",
-    "type": "",
-    "skills": ["Javascript"]
+    "title": "Intro to Cloud Computing",
+    "details": "(2022, IBM, edX)",
+    "type": "course",
+    "skills": ["IBM Cloud"]
   },
+
   {
-    "title": "Intro to Java Programming",
+    "title": "Intro to Java Certificate",
     "details": "(2023, UC3M, edX)",
-    "type": "Professional Certificate: 3 courses",
+    "type": "3-course Professional Certificate",
     "skills": ["Java"]
   },
   {
@@ -42,17 +53,25 @@
     "skills": ["Oracle Cloud"]
   },
   {
-    "title": "Intro to Web Dev",
-    "details": "(2022, IBM, edX)",
-    "type": "course",
-    "skills": ["HTML", "CSS", "Javascript"]
+    "title": "CCC Pre-apprenticeship",
+    "details": "(2024, Creating Coding Careers)",
+    "type": "",
+    "skills": ["JavaScript"]
   },
   {
-    "title": "Intro to Cloud Computing",
-    "details": "(2022, IBM, edX)",
-    "type": "course",
-    "skills": ["IBM Cloud"]
+    "title": "OCI Generative AI",
+    "details": "(2024, Oracle)",
+    "type": "course + certification exam",
+    "skills": ["Oracle Cloud", "Generative AI", "Python"]
   },
+
+  {
+    "title": "MLH Events",
+    "details": "2025, Major League Hacking",
+    "type": "Global Hack Week live sessions, challenges",
+    "skills": ["Figma", "Python", "GitHub"]
+  },
+
   {
     "title": "Independent Study",
     "details": "online resources",
@@ -62,7 +81,8 @@
       "Docker",
       "Kubernetes",
       "TailwindCSS",
-      "PostgreSQL"
+      "PostgreSQL",
+      "TypeScript"
     ]
   }
 ]

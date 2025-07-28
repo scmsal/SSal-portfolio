@@ -2,22 +2,32 @@
   {
     "name": "Portfolio 2.0",
     "description": "This website you're currently viewing. I built it with Vite and React, and used it to learn TailwindCSS.",
-    "skills": ["React", "TailwindCSS", "Vite"],
+    "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS"],
     "github": "",
     "browser": ""
   },
   {
-    "name": "Glossary",
-    "description": "",
+    "name": "FS Certificate Portfolio",
+    "description": "Collection of assignment projects completed during the full stack program.",
     "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
       "React",
-      "REST API",
       "NodeJS",
       "Express",
       "MongoDB",
+      "MySQL",
+      "REST APIs",
       "Mocha + Chai",
-      "Postman"
+      "Node.js",
+      "React-Bootstrap",
+      "Vite",
+      "VS Code",
+      "Postman",
+      "GitHub (Web/Desktop)"
     ],
+    "type": "e-portfolio",
     "github": "",
     "browser": ""
   },
@@ -25,6 +35,7 @@
     "name": "Gardening App",
     "description": "",
     "skills": [
+      "JavaScript",
       "React",
       "REST API",
       "NodeJS",
@@ -37,34 +48,30 @@
     "browser": ""
   },
   {
-    "name": "GoDaddy WordPress Migration",
+    "name": "WordPress Migration",
     "description": "",
-    "skills": ["HTML", "CSS", "Figma", "WP Them Customization"],
+    "skills": ["HTML", "CSS", "Figma", "WP Theme Customization"],
     "github": "",
     "browser": ""
   },
   {
-    "name": "FS Certificate Portfolio",
-    "description": "Collection of assignment projects completed during the full stack program.",
-    "skillsFromTraining": true,
-    "customSkills": ["TailwindCSS", "Vite"],
-    "trainingId": "fsd_ut_2025",
-    "type": "e-portfolio",
-    "source": "Full Stack Software Development (2025, UT Austin + Great Learning)",
+    "name": "Amazon homepage replica",
+    "description": "A replica of the Amazon homepage built with HTML, CSS, and JavaScript.",
+    "skills": ["HTML", "CSS", "JavaScript"],
     "github": "",
     "browser": ""
   },
   {
     "name": "Portfolio 1.0",
     "description": "This was the first portfolio web page I created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, images, and fonts.",
-    "skills": ["HTML", "CSS", "Javascript"],
+    "skills": ["HTML", "CSS", "JavaScript"],
     "github": "",
     "browser": ""
   },
   {
     "name": "Calculator",
     "description": "Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. I merged it with another project, a simple interest calculator.",
-    "skills": ["Javascript", "HTML", "CSS"],
+    "skills": ["JavaScript", "HTML", "CSS"],
     "github": "",
     "browser": ""
   },

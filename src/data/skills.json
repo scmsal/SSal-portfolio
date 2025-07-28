@@ -11,7 +11,7 @@
           "Gardening App",
           "FS Certificate Portfolio"
         ],
-        "trainings": [],
+        "trainings": ["Full Stack Software Dev"],
         "logo": "src/assets/react.svg"
       },
       {
@@ -22,7 +22,8 @@
           "Portfolio 1.0",
           "Portfolio 2.0",
           "Calculator",
-          "FS Certificate Portfolio"
+          "FS Certificate Portfolio",
+          "Amazon homepage replica"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Software Dev"],
         "logo": "src/assets/html.svg"
@@ -36,27 +37,32 @@
           "FS Certificate Portfolio",
           "Portfolio 1.0",
           "Portfolio 2.0",
-          "Gardening App"
+          "Gardening App",
+          "Amazon homepage replica"
         ],
+        "trainings": ["Intro to Web Dev", "Full Stack Software Dev Cert"],
         "logo": "src/assets/css.svg"
       },
       {
         "name": "React-Bootstrap",
         "level": 3,
         "projects": ["Gardening App"],
+        "trainings": ["Full Stack Software Dev Cert"],
         "logo": "src/assets/react-bootstrap.svg"
-      },
-      {
-        "name": "TailwindCSS",
-        "level": 2,
-        "projects": ["Portfolio"],
-        "logo": "src/assets/tailwindcss.svg"
       },
       {
         "name": "Vite",
         "level": 2,
         "projects": ["Portfolio", "Gardening App"],
+        "trainings": ["Full Stack Software Dev Cert"],
         "logo": "src/assets/vite.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 2,
+        "projects": ["Portfolio"],
+        "trainings": ["Independent Study"],
+        "logo": "src/assets/tailwindcss.svg"
       }
     ]
   },
@@ -68,15 +74,15 @@
         "level": 3,
         "projects": ["Glossary", "Gardening App"],
         "logo": "",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Software Dev Cert"]
       },
       {
         "name": "Node.js",
         "level": 3,
-        "projects": ["Glossary", "Gardening App"],
+        "projects": ["Glossary", "Gardening App", "FS Certificate Portfolio"],
         "logo": "src/assets/nodejs.svg",
         "trainings": [
-          "Full Stack Software Dev",
+          "Full Stack Software Dev Cert",
           "Independent Study",
           "Pre-apprenticeship"
         ]
@@ -86,21 +92,21 @@
         "level": 2,
         "projects": ["Glossary", "Gardening App"],
         "logo": "src/assets/express.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Software Dev Cert"]
       },
       {
         "name": "MongoDB",
         "level": 2,
         "projects": ["Glossary", "Gardening App"],
         "logo": "src/assets/mongodb.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Software Dev Cert"]
       },
       {
         "name": "MySQL",
         "level": 2,
         "projects": ["FS Certificate Portfolio"],
         "logo": "src/assets/mysql.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Software Dev Cert"]
       },
       {
         "name": "PostgreSQL",
@@ -123,12 +129,13 @@
           "Gardening App",
           "FS Certificate Portfolio",
           "Calculator",
-          "Portfolio 1.0"
+          "Portfolio 1.0",
+          "Amazon homepage replica"
         ],
         "logo": "src/assets/javascript.svg",
         "trainings": [
           "Intro to Web Dev",
-          "Full Stack Software Dev",
+          "Full Stack Software Dev Cert",
           "CCC Pre-apprenticeship"
         ]
       },
@@ -137,21 +144,21 @@
         "level": 2,
         "projects": ["Palindrome Checker"],
         "logo": "src/assets/java.svg",
-        "trainings": ["Intro to Java Programming"]
+        "trainings": ["Intro to Java Certificate"]
       },
       {
         "name": "TypeScript",
         "level": 1,
         "projects": [],
         "logo": "src/assets/typescript.svg",
-        "trainings": ["Full Stack Software Dev", "Independent Study"]
+        "trainings": ["Full Stack Software Dev Cert", "Independent Study"]
       },
       {
         "name": "Python",
         "level": 1,
         "projects": [],
         "logo": "src/assets/python.svg",
-        "trainings": ["MLH Event", "Independent Study"]
+        "trainings": ["MLH Events", "Independent Study", "OCI Generative AI"]
       }
     ]
   },
@@ -174,14 +181,14 @@
       },
       {
         "name": "IBM Cloud",
-        "level": 2,
+        "level": 1,
         "projects": [],
         "logo": "src/assets/ibmcloud.svg",
         "trainings": ["Intro to Cloud Computing"]
       },
       {
         "name": "AWS",
-        "level": 2,
+        "level": 1,
         "projects": [],
         "logo": "src/assets/gcp.svg",
         "trainings": ["Full Stack Software Dev"]
@@ -199,7 +206,7 @@
       },
       {
         "name": "Kubernetes",
-        "level": 2,
+        "level": 1,
         "projects": [],
         "logo": "src/assets/kubernetes.svg",
         "trainings": [
@@ -223,7 +230,16 @@
       {
         "name": "VS Code",
         "level": 3,
-        "projects": [""],
+        "projects": [
+          "Portfolio 2.0",
+          "Portfolio 1.0",
+          "Glossary",
+          "Gardening App",
+          "FS Certificate Portfolio",
+          "Java Palindrome Checker",
+          "Calculator",
+          "Amazon homepage replica"
+        ],
         "logo": "src/assets/vscode_eclipse.svg",
         "trainings": ["Full Stack Software Dev", "Intro to Web Dev"]
       },
@@ -232,12 +248,17 @@
         "level": 3,
         "projects": ["Java Palindrome Checker"],
         "logo": "src/assets/eclipse.svg",
-        "trainings": ["Intro to Java Programming"]
+        "trainings": ["Intro to Java Certificate"]
       },
       {
         "name": "Postman",
         "level": 3,
-        "projects": ["Glossary", "Garden"],
+        "projects": [
+          "Glossary",
+          "Garden",
+          "FS Certificate Portfolio",
+          "Gardening App"
+        ],
         "logo": "src/assets/postman.svg",
         "trainings": ["Full Stack Software Dev"]
       },
@@ -284,14 +305,14 @@
       {
         "name": "Copilot",
         "level": 3,
-        "projects": [],
+        "projects": ["Portfolio 2.0"],
         "logo": "",
         "trainings": ["Full Stack Software Dev"]
       },
       {
         "name": "ChatGPT",
         "level": 3,
-        "projects": ["All"],
+        "projects": [""],
         "logo": "",
         "trainings": ["Independent Study"]
       },
@@ -305,14 +326,14 @@
       {
         "name": "Google AI Studio",
         "level": 2,
-        "projects": ["Garden"],
+        "projects": ["Gardening App"],
         "logo": [],
         "trainings": ["MLH Event"]
       },
       {
         "name": "Canva AI",
         "level": 2,
-        "projects": [],
+        "projects": ["Portfolio 2.0"],
         "logo": "",
         "trainings": ["Independent Study"]
       }
