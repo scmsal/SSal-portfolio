@@ -11,31 +11,18 @@ const HomePage = () => {
     // <div className="bg-[url(./assets/boliviainteligente-8H8Y5emrdO0-unsplash-orig.jpg)] bg-cover bg-center">
     // <div className="bg-linear-to-r/hsl from-indigo-900 from-20%  via-purple-500 via-75% to-pink-500 to-90%">
 
-    <div className="flex flex-col" id="main-row">
-      <div className="flex flex-row px-8 items-center" id="main-left">
-        <div className="flex-col md:flex-row">
+    <main className="flex flex-grow flex-col justify-center items-start">
+      <div className="flex px-8 pt-8 ">
+        <div className="">
           <div>
-            <h2 className="font-bold text-purple-700 text-5xl text-center">
-              CODING
-            </h2>
-            is a <span className="font-bold text-pink-500 text-6xl">CRAFT</span>
-            <ul className="list-decimal">
-              <li>the hands-on practice of skillfully making things</li>
-              {/* <img className="h-20" src={modelIcon}></img> */}
-              <li>a sea, air, or space vehicle</li>
-            </ul>
+            <span className="font-bold uppercase text-5xl font-upper text-transparent bg-clip-text bg-linear-to-r from-cobalt from-10%  via-purple-500 via-75% to-pink-500 to-90%">
+              Frontend developer
+            </span>
           </div>
-          <div>
-            that takes ideas from{" "}
-            <span className="font-bold text-indigo-500 text-4xl">CONCEPT</span>{" "}
-            to <span className="font-bold text-pink-500 text-6xl">LAUNCH</span>
-            <span>and beyond</span>
+          <div className="text-gray-500 text-lg mt-2">
+            I am a frontend-focused developer who strives to craft beautiful and
+            functional user experiences.
           </div>
-        </div>
-        <div>
-          <h1>Hello!</h1>
-          <p>I am a frontend focused web developer</p>
-          <img src={knittingImage} className="h-30" />
         </div>
       </div>
       {/* <div className="px-4 w-1/3 items-center" id="main-right">
@@ -46,7 +33,7 @@ const HomePage = () => {
           <span className="text-indigo-500">{"</>"}</span>
         </div>
       </div> */}
-    </div>
+    </main>
   );
 };
 
