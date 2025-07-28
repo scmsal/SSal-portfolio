@@ -1,64 +1,45 @@
-import React from "react";
-import skillsData from "../data/skills.json";
+import projects from "../data/projects.json";
 
 const ProjectsPage = () => {
-  const levelMap = {
-    1: "●○○○",
-    2: "●●○○",
-    3: "●●●○",
-    4: "●●●●", // future use
-  };
   return (
-    <div className="p-6">
-      {/* Projects */}
-      <div className="md:col-span-2">
-        <h1 className="text-center">Projects</h1>
-      </div>
-      <div className="">
-        <h1 className="text-center mb-4">Tech Stack</h1>
-        <div className="">
-          {/* Tech Stack */}
+    <main className="flex-grow p-6">
+      <h1 className="text-center">Projects</h1>
 
-          {/* grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 */}
-          <div className="flex flex-wrap justify-center gap-6">
-            {skillsData.map((section) => {
-              return (
-                <div
-                  className="text-center md:min-w-1 shadow-md p-2 rounded"
-                  key="section.category"
-                >
-                  <h2 className="font-bold text-2xl text-cobalt mb-4">
-                    {section.category}
-                  </h2>
-                  <ul className="flex flex-col">
-                    {section.skills.map((skill) => {
-                      const name = skill.name;
-                      const logo = skill.logo;
-                      return (
-                        <li
-                          key={name}
-                          className="flex items-center justify-between"
-                        >
-                          <div className="flex items-center ">
-                            <h3 className={`font-bold pr-3`}>{name}</h3>{" "}
-                            {/* {logo && <img className="h-6" src={skill.logo} />} */}
-                          </div>
-                          <div className="items-center">
-                            <span className="text-cobalt">
-                              {levelMap[skill.level]}
-                            </span>
-                          </div>
-                        </li>
-                      );
-                    })}
-                  </ul>
-                </div>
-              );
-            })}
-          </div>
-        </div>
+      <div className="grid grid-cols-1 mx-6 md:grid-cols-3 md:gap-10 ">
+        {projects.map((project) => {
+          return (
+            <div
+              className="text-center w-full shadow-md p-2 rounded h-65 overflow-hidden"
+              key={project.name}
+            >
+              {/* <div className="flex justify-center mt-4">
+                <img
+                  src={project.screenshot ? project.screenshot : ""}
+                  alt={`${project.name} screenshot`}
+                  className="w-full h-auto rounded"
+                />
+              </div> */}
+              <h2 className="font-bold text-2xl text-cobalt mb-4">
+                {project.name}
+              </h2>
+              <p className="text-grey-500">{project.description}</p>
+              <div className="flex flex-wrap gap-1">
+                {project.skills.map((skill) => {
+                  return (
+                    <span
+                      key={skill.name}
+                      className={"rounded-lg px-2 cursor-pointer mb-1"}
+                    >
+                      {skill.name}
+                    </span>
+                  );
+                })}
+              </div>
+            </div>
+          );
+        })}
       </div>
-    </div>
+    </main>
   );
 };
 
