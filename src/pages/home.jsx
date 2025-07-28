@@ -15,13 +15,15 @@ const HomePage = () => {
       <div className="flex px-8 pt-8 ">
         <div className="">
           <div>
-            <span className="font-bold uppercase text-5xl font-upper text-transparent bg-clip-text bg-linear-to-r from-cobalt from-10%  via-purple-500 via-75% to-pink-500 to-90%">
+            <span className="font-bold uppercase text-6xl font-upper text-transparent bg-clip-text bg-linear-to-r from-cobalt from-10%  via-purple-500 via-75% to-pink-500 to-90%">
               Frontend developer
             </span>
           </div>
-          <div className="text-gray-500 text-lg mt-2">
-            I am a frontend-focused developer who strives to craft beautiful and
-            functional user experiences.
+          <div className="text-gray-500 text-lg mt-2 w-1/2">
+            I am a frontend-focused developer who strives to craft beautiful,
+            functional web applications. With a background in education and
+            interpreting, I am passionate about making digital resources
+            accessible to all users.
           </div>
         </div>
       </div>
