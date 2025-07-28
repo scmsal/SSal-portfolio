@@ -42,16 +42,17 @@ const SkillsPage = () => {
   };
 
   return (
-    <div className="grid grid-cols-3 gap-2 p-4">
+    <div className="grid grid-cols-3 gap-2 px-4">
       {/* Tech Stack */}
       <div className="col-span-2">
         <span className="flex justify-center">
-          <h1 className="text-center mb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 from-10% via-violet-500 via-40% via-indigo-500 via-60% to-cobalt">
+          <h1 className="text-center mb-3 text-cobalt">
+            {/* bg-gradient-to-r from-pink-500 from-10% via-violet-500 via-40% via-indigo-500 via-60% to-cobalt */}
             Tech Stack Skills
           </h1>
         </span>
         <div className="">
-          <div className="flex flex-wrap justify-left gap-4">
+          <div className="flex flex-wrap justify-left gap-3 mb-2">
             {skillsData.map((section) => {
               return (
                 <div
@@ -72,12 +73,32 @@ const SkillsPage = () => {
                             console.log("skill clicked", { skill });
                             skillClickHandler(skill);
                           }}
-                          className={`flex items-center justify-between px-1 ${selectedSkill === skill ? "bg-violet-200 border border-cobalt border-3 rounded-sm" : ""}`}
+                          className={`
+                            flex 
+                            items-center 
+                            justify-between 
+                            px-1 
+                            mb-1
+                            ${
+                              selectedSkill === skill
+                                ? "bg-blue-200 border border-cobalt border-3 rounded-sm"
+                                : ""
+                            }
+                            ${
+                              selectedProject?.skills?.includes(skill.name)
+                                ? "border border-cobalt bg-blue-200"
+                                : ""
+                            }
+                            ${
+                              selectedTraining?.skills?.includes(skill.name)
+                                ? "border border-cobalt bg-blue-200"
+                                : ""
+                            }
+
+                            `}
                         >
                           <div className="flex items-center">
-                            <h3
-                              className={`font-bold  cursor-pointer ${selectedProject?.skills?.includes(skill.name) ? "bg-violet-200" : ""} `}
-                            >
+                            <h3 className={`font-bold cursor-pointer  `}>
                               {name}
                             </h3>
                             {/* {logo && <img className="h-6" src={skill.logo} />} */}
@@ -117,7 +138,7 @@ const SkillsPage = () => {
       <div className="col-span-1 flex flex-col justify-around">
         <div className="mb-3">
           <h2 className="mb-3">...learned in:</h2>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-1">
             <span className="text-gray-600">
               Programs and courses where I learned these skills.
             </span>
@@ -132,7 +153,7 @@ const SkillsPage = () => {
               return (
                 <span
                   key={training.title}
-                  className={`border ${selectedSkill?.trainings?.includes(training.title) ? "border-violet-500 bg-violet-200" : "border-cobalt"} rounded-full px-3 cursor-pointer mb-1 ${selectedTraining === training ? "bg-blue-200 border border-cobalt border-3 rounded-sm" : ""}}`}
+                  className={`border rounded-lg border-cobalt px-3 cursor-pointer mb-1 ${selectedSkill?.trainings?.includes(training.title) ? " bg-blue-100" : ""}   ${selectedTraining === training ? "bg-blue-200 border-3 " : ""}}`}
                   title={training.details}
                   onClick={() => {
                     console.log("training clicked", training);
@@ -149,7 +170,7 @@ const SkillsPage = () => {
         <div className="col-span-1 flex flex-col justify-around">
           <div className="mb-3">
             <h2 className="mb-3">...applied in:</h2>
-            <div className="flex flex-wrap justify-center gap-3">
+            <div className="flex flex-wrap justify-center gap-2">
               <span className="text-gray-600">
                 Projects in which I used these skills.
               </span>
@@ -161,12 +182,19 @@ const SkillsPage = () => {
               </NavLink>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-1">
             {projectsData.map((project) => {
               return (
                 <span
                   key={project.name}
-                  className={`border ${selectedSkill?.projects?.includes(project.name) ? "border-violet-500 bg-violet-200" : "border-cobalt"} rounded-full px-2 cursor-pointer mb-1`}
+                  className={`border border-cobalt rounded-lg px-2 cursor-pointer mb-1
+                    ${selectedProject === project ? "bg-blue-200 border-3 " : ""}
+                    ${
+                      selectedSkill?.projects?.includes(project.name)
+                        ? " bg-blue-100"
+                        : ""
+                    } 
+                      `}
                   onClick={() => {
                     console.log("project clicked", project);
                     projectClickHandler(project);
