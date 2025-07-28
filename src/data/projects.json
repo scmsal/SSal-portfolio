@@ -4,7 +4,8 @@
     "description": "This website you're currently viewing. I built it with Vite and React, and used it to learn TailwindCSS.",
     "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "FS Certificate Portfolio",
@@ -29,7 +30,8 @@
     ],
     "type": "e-portfolio",
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "Gardening App",
@@ -45,48 +47,55 @@
       "Google AI Studio"
     ],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "WordPress Migration",
     "description": "",
     "skills": ["HTML", "CSS", "Figma", "WP Theme Customization"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "Amazon homepage replica",
     "description": "A replica of the Amazon homepage built with HTML, CSS, and JavaScript.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": "../assets/screenshots/amazon-homepage-replica.png"
   },
   {
     "name": "Portfolio 1.0",
     "description": "This was the first portfolio web page I created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, images, and fonts.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "Calculator",
     "description": "Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. I merged it with another project, a simple interest calculator.",
     "skills": ["JavaScript", "HTML", "CSS"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "Java Palindrome Checker",
     "description": "Created an application to solve different Java problems with a shared parser class. Still refactoring and adding problem classes.",
     "skills": ["Java"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   },
   {
     "name": "Codewars Kata",
     "description": "Developed short Java programs to solve scenarios created by other users.",
     "skills": ["Java"],
     "github": "",
-    "browser": ""
+    "browser": "",
+    "screenshot": ""
   }
 ]
