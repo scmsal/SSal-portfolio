@@ -23,7 +23,7 @@ const NavBar = () => {
               to="/about"
               className={({ isActive }) =>
                 isActive
-                  ? "menulink text-gray-400"
+                  ? "menulink text-gray-400 border-b-3 border-fuchsia-700"
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >
@@ -35,7 +35,7 @@ const NavBar = () => {
               to="/skills"
               className={({ isActive }) =>
                 isActive
-                  ? "menulink text-gray-500"
+                  ? "menulink text-gray-500 border-b-3 border-fuchsia-700"
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >
@@ -47,7 +47,7 @@ const NavBar = () => {
               to="/projects"
               className={({ isActive }) =>
                 isActive
-                  ? "menulink text-gray-500"
+                  ? "menulink text-gray-500 border-b-3 border-fuchsia-700"
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >
@@ -59,7 +59,7 @@ const NavBar = () => {
               to="/contact"
               className={({ isActive }) =>
                 isActive
-                  ? "menulink text-gray-500"
+                  ? "menulink text-gray-500 border-b-3 border-fuchsia-700"
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >
