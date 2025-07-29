@@ -54,13 +54,17 @@
         "name": "Vite",
         "level": 2,
         "projects": ["Portfolio", "Gardening App"],
-        "trainings": ["Full Stack Software Dev Cert"],
+        "trainings": [
+          "Full Stack Software Dev Cert",
+          "Portfolio 1.0",
+          "Portfolio 2.0"
+        ],
         "logo": "src/assets/vite.svg"
       },
       {
         "name": "Tailwind CSS",
         "level": 2,
-        "projects": ["Portfolio"],
+        "projects": ["Portfolio 2.0"],
         "trainings": ["Independent Study"],
         "logo": "src/assets/tailwindcss.svg"
       }
