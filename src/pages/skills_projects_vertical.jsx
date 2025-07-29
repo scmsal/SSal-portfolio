@@ -42,8 +42,8 @@ const SkillsPage = () => {
   };
 
   return (
-    <main>
-      <div className="grid grid-cols-3 gap-2 px-4">
+    <main className="px-8">
+      <div className="grid grid-cols-3 gap-2">
         {/* Tech Stack */}
         <div className="col-span-2">
           <span className="flex justify-center">
@@ -63,7 +63,7 @@ const SkillsPage = () => {
                     <h2 className="font-bold text-2xl text-gray-500">
                       {section.category}
                     </h2>
-                    <ul className="">
+                    <ul className="py-0.5">
                       {section.skills.map((skill) => {
                         const name = skill.name;
                         const logo = skill.logo;
@@ -78,11 +78,10 @@ const SkillsPage = () => {
                             flex 
                             items-center 
                             justify-between 
-                            px-1 
-                            mb-1
+                          mb-0.5
                             ${
                               selectedSkill === skill
-                                ? "bg-blue-200 border border-cobalt border-3 rounded-sm"
+                                ? "bg-blue-200 border-cobalt border-3 rounded-sm"
                                 : ""
                             }
                             ${
