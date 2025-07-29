@@ -3,13 +3,14 @@ import projects from "../data/projects.json";
 const ProjectsPage = () => {
   return (
     <main className="flex-grow p-6">
-      <h1 className="text-center">Projects</h1>
+      <h1 className="text-center mb-5">Projects</h1>
 
-      <div className="grid grid-cols-1 mx-6 md:grid-cols-3 md:gap-10 ">
+      <div className="grid grid-cols-1 mx-6 md:grid-cols-3 md:gap-6 ">
         {projects.map((project) => {
+          console.log("Rendering project:", project.name);
           return (
             <div
-              className="text-center w-full shadow-md p-2 rounded h-65 overflow-hidden"
+              className="flex flex-col text-center w-full shadow-md p-2 rounded h-70"
               key={project.name}
             >
               {/* <div className="flex justify-center mt-4">
@@ -19,18 +20,34 @@ const ProjectsPage = () => {
                   className="w-full h-auto rounded"
                 />
               </div> */}
-              <h2 className="font-bold text-2xl text-cobalt mb-4">
+              <h2 className="font-bold text-2xl text-fuchsia-700 mb-4">
                 {project.name}
               </h2>
-              <p className="text-grey-500">{project.description}</p>
-              <div className="flex flex-wrap gap-1">
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Github
+              </a>
+              <a
+                href={project.browser}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Browser
+              </a>
+              <p className="text-gray-500 flex-grow">{project.description}</p>
+              <div className="flex flex-wrap p-1">
                 {project.skills.map((skill) => {
                   return (
                     <span
-                      key={skill.name}
-                      className={"rounded-lg px-2 cursor-pointer mb-1"}
+                      key={skill}
+                      className={
+                        "rounded-lg border bg-slate-100 border-gray-400 px-2 text-gray-500 text-sm mx-0.5 my-0.5"
+                      }
                     >
-                      {skill.name}
+                      {skill}
                     </span>
                   );
                 })}
