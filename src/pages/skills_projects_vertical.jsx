@@ -2,13 +2,14 @@ import skillsData from "../data/skills.json";
 import projectsData from "../data/projects.json";
 import trainingsData from "../data/trainings.json";
 import { NavLink } from "react-router-dom";
-import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import { useState, useEffect } from "react";
+
+import { ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 
 const SkillsPage = () => {
   const levelMap = {
-    1: { symbol: "●○○○", label: "learned" },
-    2: { symbol: "●●○○", label: "practiced" },
+    1: { symbol: "●○○○", label: "basic" },
+    2: { symbol: "●●○○", label: "beginner" },
     3: { symbol: "●●●○", label: "proficient" },
     4: { symbol: "●●●●", label: "expert" }, // future use
   };
@@ -70,8 +71,8 @@ const SkillsPage = () => {
                         return (
                           <li
                             key={name}
+                            title={levelMap[skill.level].label}
                             onClick={() => {
-                              console.log("skill clicked", { skill });
                               skillClickHandler(skill);
                             }}
                             className={`

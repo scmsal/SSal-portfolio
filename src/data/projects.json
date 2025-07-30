@@ -1,15 +1,15 @@
 [
   {
     "name": "Portfolio 2.0",
-    "description": "This website you're currently viewing. I built it with Vite and React, and used it to learn TailwindCSS.",
+    "description": "The website you are currently viewing. Instead of just updating my original portfolio, I decided to completely rebuild it from scratch using newly developed skills. It is my first time learning and implementing Tailwind CSS.",
     "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS"],
     "github": "",
     "browser": "",
-    "screenshot": ""
+    "screenshot": "/favicon_wide.png"
   },
   {
-    "name": "FS Certificate Portfolio",
-    "description": "Collection of assignment projects completed during the full stack program.",
+    "name": "Full Stack Coursework",
+    "description": "A summary of all the graded course projects I submitted during the UT Austin Full Stack Software Development Professional Certificate program (Oct 2024 – Jul 2025).",
     "skills": [
       "HTML",
       "CSS",
@@ -29,13 +29,12 @@
       "GitHub (Web/Desktop)"
     ],
     "type": "e-portfolio",
-    "github": "",
-    "browser": "",
-    "screenshot": ""
+    "browser": "https://mygreatlearning.com/eportfolio/stephanie-salifu",
+    "screenshot": "../src/assets/project_imgs/FSSD_e-port.png"
   },
   {
     "name": "Gardening App",
-    "description": "",
+    "description": "A React-Redux application with selected vegetable and herb gardening resources, originally fetching data from external APIs. I then shifted to using a local JSON file. The current phase is refactoring for MongoDB integration.",
     "skills": [
       "JavaScript",
       "React",
@@ -46,56 +45,56 @@
       "Bootstrap",
       "Google AI Studio"
     ],
-    "github": "",
+    "github": "https://github.com/scmsal/original-projects/tree/main/garden_app",
     "browser": "",
-    "screenshot": ""
+    "screenshot": "../src/assets/project_imgs/garden_app.png"
   },
   {
     "name": "WordPress Migration",
-    "description": "",
+    "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness.",
     "skills": ["HTML", "CSS", "Figma", "WP Theme Customization"],
     "github": "",
     "browser": "",
-    "screenshot": ""
+    "screenshot": "../src/assets/project_imgs/company_nav.png"
   },
   {
-    "name": "Amazon homepage replica",
-    "description": "A replica of the Amazon homepage built with HTML, CSS, and JavaScript.",
+    "name": "Web page replica",
+    "description": "A copy of the Amazon homepage built from scratch with HTML, CSS, and JavaScript.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "github": "",
-    "browser": "",
-    "screenshot": "../assets/screenshots/amazon-homepage-replica.png"
+    "github": "https://github.com/scmsal/AMZreplica",
+    "browser": "https://scmsal.github.io/AMZreplica/",
+    "screenshot": "../src/assets/project_imgs/Amazon_homepage.png"
   },
   {
     "name": "Portfolio 1.0",
     "description": "This was the first portfolio web page I created with HTML, CSS3, and JavaScript, originally based on a project tutorial during the IBM Introduction to Web Development course on edX.org. I changed the layout, contents, and style, adding buttons, icons, images, and fonts.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "github": "",
-    "browser": "",
-    "screenshot": ""
+    "github": "https://github.com/scmsal/portfolio",
+    "browser": "https://scmsal.github.io/portfolio/",
+    "screenshot": "../src/assets/project_imgs/orig_portfolio.png"
   },
   {
     "name": "Calculator",
-    "description": "Developed and styled a single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. I merged it with another project, a simple interest calculator.",
+    "description": "A single-page website for metric to imperial unit conversion using JavaScript, HTML, and CSS3. I merged it with another project, a simple interest calculator.",
     "skills": ["JavaScript", "HTML", "CSS"],
-    "github": "",
-    "browser": "",
-    "screenshot": ""
+    "github": "https://github.com/scmsal/calculator",
+    "browser": "https://scmsal.github.io/calculator",
+    "screenshot": "../src/assets/project_imgs/calculator.png"
   },
   {
     "name": "Java Palindrome Checker",
-    "description": "Created an application to solve different Java problems with a shared parser class. Still refactoring and adding problem classes.",
+    "description": "An application to solve different Java problems with a shared parser class. Currently offers a palindrome checking feature. The project is hosted on an online IDE for easy access.",
     "skills": ["Java"],
-    "github": "",
-    "browser": "",
-    "screenshot": ""
+    "github": "https://github.com/scmsal/myprojects/tree/main/myprojects1/src",
+    "browser": "https://www.online-ide.com/sBHoGTfCO1",
+    "screenshot": "../src/assets/project_imgs/palindrome_text.png"
   },
   {
     "name": "Codewars Kata",
-    "description": "Developed short Java programs to solve scenarios created by other users.",
+    "description": "Not a project per se, but the development of short Java programs to solve scenarios created by other users.",
     "skills": ["Java"],
     "github": "",
-    "browser": "",
-    "screenshot": ""
+    "browser": "https://www.codewars.com/users/Code-name-go/completed_solutions",
+    "screenshot": "https://www.codewars.com/users/Code-name-go/badges/large"
   }
 ]
