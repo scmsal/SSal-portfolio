@@ -1,21 +1,17 @@
-import { useState } from "react";
-
 import "./index.css";
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// The Vite build log suggested using import() to split the chunks. I asked ChatGPT for the snippet and CoPilot helped with the implementation.
+import { lazy, Suspense } from "react";
 
-//import pages
-import HomePage from "./pages/home";
-import ProjectsPage from "./pages/projects";
-import AboutPage from "./pages/about";
-import ContactPage from "./pages/contact";
-import Footer from "./components/footer";
-import SkillsPage from "./pages/skills_projects_vertical";
+const NavBar = lazy(() => import("./components/NavBar"));
+const HomePage = lazy(() => import("./pages/home"));
+const ProjectsPage = lazy(() => import("./pages/projects"));
+const AboutPage = lazy(() => import("./pages/about"));
+const ContactPage = lazy(() => import("./pages/contact"));
+const SkillsPage = lazy(() => import("./pages/skills_projects_vertical"));
+const Footer = lazy(() => import("./components/footer"));
 
-//import component
-import NavBar from "./components/NavBar";
-
-//Main app
+//Main app, my own implementation
 function App() {
   return (
     <Router>
