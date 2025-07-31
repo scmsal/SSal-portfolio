@@ -1,7 +1,5 @@
 import React from "react";
 import NavBar from "../components/NavBar";
-import modelIcon from "../../public/assets/modeling_flaticon.png";
-import knittingImage from "../assets/Gemini_Generated_Image_knitting.png";
 
 const HomePage = () => {
   console.log("HomePage rendered");

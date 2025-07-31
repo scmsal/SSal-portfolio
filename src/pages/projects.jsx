@@ -1,14 +1,8 @@
 import projects from "../data/projects.json";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-
-/* import all the icons in Free Solid, Free Regular, and Brands styles */
-import { fas } from "@fortawesome/free-solid-svg-icons";
-import { far } from "@fortawesome/free-regular-svg-icons";
-import { fab } from "@fortawesome/free-brands-svg-icons";
-
-library.add(fas, far, fab);
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const ProjectsPage = () => {
   return (
@@ -34,7 +28,7 @@ const ProjectsPage = () => {
                       rel="noopener noreferrer"
                     >
                       <FontAwesomeIcon
-                        icon="fa-brands fa-github"
+                        icon={faGithub}
                         className="align-middle hover:scale-x-[-1] transition-transform duration-300"
                         size="xl"
                       />
@@ -48,7 +42,7 @@ const ProjectsPage = () => {
                     >
                       {/* I didn't use the Font Awesome flip prop because it couldn't be combined with hover */}
                       <FontAwesomeIcon
-                        icon="fa-solid fa-globe"
+                        icon={faGlobe}
                         className="align-middle hover:scale-x-[-1] transition-transform duration-400"
                         size="xl"
                       />
