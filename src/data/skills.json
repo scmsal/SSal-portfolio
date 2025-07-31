@@ -9,7 +9,7 @@
           "Portfolio 2.0",
           "Glossary",
           "Gardening App",
-          "FS Certificate Portfolio"
+          "Full Stack Coursework"
         ],
         "trainings": ["Full Stack Software Dev"],
         "logo": "src/assets/react.svg"
@@ -22,8 +22,8 @@
           "Portfolio 1.0",
           "Portfolio 2.0",
           "Calculator",
-          "FS Certificate Portfolio",
-          "Amazon homepage replica"
+          "Full Stack Coursework",
+          "  replica"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Software Dev"],
         "logo": "src/assets/html.svg"
@@ -34,11 +34,11 @@
         "projects": [
           "GoDaddy WordPress Migration",
           "Calculator",
-          "FS Certificate Portfolio",
+          "Full Stack Coursework",
           "Portfolio 1.0",
           "Portfolio 2.0",
           "Gardening App",
-          "Amazon homepage replica"
+          "  replica"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Software Dev Cert"],
         "logo": "src/assets/css.svg"
@@ -90,7 +90,7 @@
       {
         "name": "Node.js",
         "level": 3,
-        "projects": ["Glossary", "Gardening App", "FS Certificate Portfolio"],
+        "projects": ["Glossary", "Gardening App", "Full Stack Coursework"],
         "logo": "src/assets/nodejs.svg",
         "trainings": [
           "Full Stack Software Dev Cert",
@@ -115,7 +115,7 @@
       {
         "name": "MySQL",
         "level": 2,
-        "projects": ["FS Certificate Portfolio"],
+        "projects": ["Full Stack Coursework"],
         "logo": "src/assets/mysql.svg",
         "trainings": ["Full Stack Software Dev Cert"]
       },
@@ -138,10 +138,10 @@
           "Portfolio 2.0",
           "Glossary",
           "Gardening App",
-          "FS Certificate Portfolio",
+          "Full Stack Coursework",
           "Calculator",
           "Portfolio 1.0",
-          "Amazon homepage replica"
+          "  replica"
         ],
         "logo": "src/assets/javascript.svg",
         "trainings": [
@@ -246,10 +246,10 @@
           "Portfolio 1.0",
           "Glossary",
           "Gardening App",
-          "FS Certificate Portfolio",
+          "Full Stack Coursework",
           "Java Palindrome Checker",
           "Calculator",
-          "Amazon homepage replica"
+          "Webpage Replica"
         ],
         "logo": "src/assets/vscode_eclipse.svg",
         "trainings": ["Full Stack Software Dev", "Intro to Web Dev"]
@@ -267,7 +267,7 @@
         "projects": [
           "Glossary",
           "Garden",
-          "FS Certificate Portfolio",
+          "Full Stack Coursework",
           "Gardening App"
         ],
         "logo": "src/assets/postman.svg",
@@ -281,9 +281,9 @@
         "trainings": ["Full Stack Software Dev"]
       },
       {
-        "name": "WP Theme Customization",
+        "name": "WP Customization",
         "level": 2,
-        "projects": ["GoDaddy WordPress Migration"],
+        "projects": ["WordPress Migration"],
         "logo": "src/assets/wordpress.svg",
         "trainings": ["Independent Study"]
       },

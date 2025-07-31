@@ -15,7 +15,6 @@
       "CSS",
       "JavaScript",
       "React",
-      "NodeJS",
       "Express",
       "MongoDB",
       "MySQL",
@@ -39,7 +38,7 @@
       "JavaScript",
       "React",
       "REST API",
-      "NodeJS",
+      "Node.js",
       "Express",
       "MongoDB",
       "Bootstrap",
@@ -52,13 +51,13 @@
   {
     "name": "WordPress Migration",
     "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness.",
-    "skills": ["HTML", "CSS", "Figma", "WP Theme Customization"],
+    "skills": ["HTML", "CSS", "Figma", "WP Customization"],
     "github": "",
     "browser": "",
     "screenshot": "../src/assets/project_imgs/company_nav.png"
   },
   {
-    "name": "Web page replica",
+    "name": "Webpage Replica",
     "description": "A copy of the Amazon homepage built from scratch with HTML, CSS, and JavaScript.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/scmsal/AMZreplica",
