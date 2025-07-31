@@ -13,12 +13,7 @@ const SkillsPage = () => {
     3: { symbol: "●●●○", label: "proficient" },
     4: { symbol: "●●●●", label: "expert" }, // future use
   };
-  const colorMap = {
-    1: "text-blue-500",
-    2: "text-purple-600",
-    3: "text-pink-500",
-    4: "text-fuchsia-900",
-  };
+  // State to track selected skill, training, and project
   const [selectedSkill, setSelectedSkill] = useState("");
   const [selectedTraining, setSelectedTraining] = useState("");
   const [selectedProject, setSelectedProject] = useState("");

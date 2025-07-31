@@ -21,11 +21,11 @@ const HomePage = () => {
           </div>
           <div className=" text-xl w-1/2">
             <div className="font-bold mb-4">
-              with full stack exposure and a growth mindset.
+              with full stack exposure and a growth mindset
             </div>
             <p className="text-gray-500">
               Focused on building clean, responsive UIs with React and Tailwind.
-              Actively deepening skills in backend technologies, testing, and
+              Actively deepening skills in backend technologies, testing and
               internationalization.
             </p>
           </div>
