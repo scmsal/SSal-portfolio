@@ -29,7 +29,7 @@
     ],
     "type": "e-portfolio",
     "browser": "https://mygreatlearning.com/eportfolio/stephanie-salifu",
-    "screenshot": "../src/assets/project_imgs/FSSD_e-port.png"
+    "screenshot": "/project_imgs/FSSD_e-port.png"
   },
   {
     "name": "Gardening App",
@@ -46,7 +46,7 @@
     ],
     "github": "https://github.com/scmsal/original-projects/tree/main/garden_app",
     "browser": "",
-    "screenshot": "../src/assets/project_imgs/garden_app.png"
+    "screenshot": "/project_imgs/garden_app.png"
   },
   {
     "name": "WordPress Migration",
@@ -54,7 +54,7 @@
     "skills": ["HTML", "CSS", "Figma", "WP Customization"],
     "github": "",
     "browser": "",
-    "screenshot": "../src/assets/project_imgs/company_nav.png"
+    "screenshot": "/project_imgs/company_nav.png"
   },
   {
     "name": "Webpage Replica",
@@ -62,7 +62,7 @@
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/scmsal/AMZreplica",
     "browser": "https://scmsal.github.io/AMZreplica/",
-    "screenshot": "../src/assets/project_imgs/Amazon_homepage.png"
+    "screenshot": "/project_imgs/Amazon_homepage.png"
   },
   {
     "name": "Portfolio 1.0",
@@ -70,7 +70,7 @@
     "skills": ["HTML", "CSS", "JavaScript"],
     "github": "https://github.com/scmsal/portfolio",
     "browser": "https://scmsal.github.io/portfolio/",
-    "screenshot": "../src/assets/project_imgs/orig_portfolio.png"
+    "screenshot": "/project_imgs/orig_portfolio.png"
   },
   {
     "name": "Calculator",
@@ -78,7 +78,7 @@
     "skills": ["JavaScript", "HTML", "CSS"],
     "github": "https://github.com/scmsal/calculator",
     "browser": "https://scmsal.github.io/calculator",
-    "screenshot": "../src/assets/project_imgs/calculator.png"
+    "screenshot": "/project_imgs/calculator.png"
   },
   {
     "name": "Java Palindrome Checker",
@@ -86,7 +86,7 @@
     "skills": ["Java"],
     "github": "https://github.com/scmsal/myprojects/tree/main/myprojects1/src",
     "browser": "https://www.online-ide.com/sBHoGTfCO1",
-    "screenshot": "../src/assets/project_imgs/palindrome_text.png"
+    "screenshot": "/project_imgs/palindrome_text.png"
   },
   {
     "name": "Codewars Kata",
