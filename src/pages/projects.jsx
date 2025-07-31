@@ -15,21 +15,13 @@ const ProjectsPage = () => {
     <main className="flex-grow p-6">
       <h1 className="text-center mb-5">Projects</h1>
 
-      <div className="grid grid-cols-1 mx:6 sm:mx-10 lg:mx-30 md:grid-cols-3 md:gap-6 ">
+      <div className="grid grid-cols-1 mx:6 sm:mx-10 lg:mx-28 md:grid-cols-3 md:gap-6 ">
         {projects.map((project) => {
           return (
             <div
               className="flex flex-col w-full shadow-md p-6 rounded min-h-70"
               key={project.name}
             >
-              {/* <div className="flex justify-center mt-4">
-                <img
-                  src={project.screenshot ? project.screenshot : ""}
-                  alt={`${project.name} screenshot`}
-                  className="w-full h-auto rounded"
-                />
-              
-              </div> */}
               <div className="flex flex-row justify-between mb-4">
                 <h2 className="font-bold text-2xl text-fuchsia-700">
                   {project.name}
