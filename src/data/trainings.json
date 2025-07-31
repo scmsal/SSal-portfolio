@@ -1,6 +1,7 @@
 [
   {
     "title": "Full Stack Software Dev Cert",
+    "full_title": "Full Stack Software Development",
     "details": "(2025, UT Austin + Great Learning)",
     "type": "Professional Certificate",
     "skills": [
@@ -17,7 +18,7 @@
       "Git",
       "TypeScript",
       "Node.js",
-      "React-Bootstrap",
+      "Bootstrap",
       "Vite",
       "VS Code",
       "Postman",
@@ -29,12 +30,14 @@
   },
   {
     "title": "Intro to Web Dev",
+    "full_title": "Introduction to Web Development",
     "details": "(2022, IBM, edX)",
     "type": "course",
-    "skills": ["HTML", "CSS", "JavaScript"]
+    "skills": ["HTML", "CSS", "JavaScript", "VS Code"]
   },
   {
     "title": "Intro to Cloud Computing",
+    "full_title": "Introduction to Cloud Computing",
     "details": "(2022, IBM, edX)",
     "type": "course",
     "skills": ["IBM Cloud"]
@@ -42,39 +45,40 @@
 
   {
     "title": "Intro to Java Certificate",
+    "full_title": "Introduction to Java Programming",
     "details": "(2023, UC3M, edX)",
     "type": "3-course Professional Certificate",
-    "skills": ["Java"]
+    "skills": ["Java", "Eclipse", "VS Code"]
   },
   {
     "title": "OCI Foundations Associate",
     "details": "(2023, Oracle)",
-    "type": "course + certification exam",
+    "type": "course + certification",
     "skills": ["Oracle Cloud"]
   },
   {
     "title": "CCC Pre-apprenticeship",
     "details": "(2024, Creating Coding Careers)",
-    "type": "",
+    "type": "courses on JS and professional skills",
     "skills": ["JavaScript"]
   },
   {
     "title": "OCI Generative AI",
     "details": "(2024, Oracle)",
-    "type": "course + certification exam",
+    "type": "course + certification",
     "skills": ["Oracle Cloud", "Generative AI", "Python"]
   },
 
   {
     "title": "MLH Events",
-    "details": "2025, Major League Hacking",
+    "details": "(2025, Major League Hacking)",
     "type": "Global Hack Week live sessions, challenges",
     "skills": ["Figma", "Python", "GitHub"]
   },
 
   {
     "title": "Independent Study",
-    "details": "online resources",
+    "details": "",
     "type": "documentation, tutorials, articles, self-paced courses",
     "skills": [
       "Google Cloud",
