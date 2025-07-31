@@ -81,7 +81,7 @@
     "screenshot": "/project_imgs/calculator.png"
   },
   {
-    "name": "Java Palindrome Checker",
+    "name": "Palindrome Checker",
     "description": "An application to solve different Java problems with a shared parser class. Currently offers a palindrome checking feature. The project is hosted on an online IDE for easy access.",
     "skills": ["Java"],
     "github": "https://github.com/scmsal/myprojects/tree/main/myprojects1/src",
