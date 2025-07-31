@@ -24,6 +24,10 @@
   body {
     @apply text-cobalt;
   }
+
+  .accent {
+    @apply text-fuchsia-700 font-bold;
+  }
 }
 
 @layer utilities {
