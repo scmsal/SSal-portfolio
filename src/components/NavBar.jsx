@@ -27,7 +27,7 @@ const NavBar = () => {
                   : "menulink text-cobalt  hover:text-gray-400"
               }
             >
-              About Me
+              About
             </NavLink>
           </li>
           <li>
