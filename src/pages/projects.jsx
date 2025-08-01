@@ -9,7 +9,7 @@ const ProjectsPage = () => {
     <main className="flex-grow p-6">
       <h1 className="text-center mb-5">Projects</h1>
 
-      <div className="grid grid-cols-1 mx:6 sm:mx-10 lg:mx-28 md:grid-cols-3 md:gap-6 ">
+      <div className="grid grid-cols-1 mx:6 sm:mx-10  lg:mx-15 xl:mx-28 sm:grid-cols-2 lg:grid-cols-3 md:gap-6 ">
         {projects.map((project) => {
           return (
             <div
