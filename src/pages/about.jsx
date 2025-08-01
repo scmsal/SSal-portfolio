@@ -63,7 +63,9 @@ const AboutPage = () => {
         <h2 className="font-bold mb-2 mt-4">Current Focus</h2>
 
         <ul className="text-gray-600 px-4 list-disc list-inside text-md grid grid-cols-1 md:grid-cols-2 gap-1">
-          <li>Studying UI/UX principles and modern frontend design</li>
+          <li>
+            Studying modern frontend design techniques and UI/UX principles
+          </li>
           <li>
             Exploring deployment workflows and cloud-based hosting solutions
           </li>
