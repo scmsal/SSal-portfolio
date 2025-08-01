@@ -1,8 +1,17 @@
-import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Bars3Icon } from "@heroicons/react/24/outline";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faX } from "@fortawesome/free-solid-svg-icons/faX";
 
 const NavBar = () => {
+  //Copilot helped with the isOpen state and toggleMenu function
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+    console.log("Menu toggled:", !isOpen);
+  };
+
   return (
     <div
       id="NavBar"
@@ -17,7 +26,9 @@ const NavBar = () => {
       </NavLink>
       {/* Menu - visible on desktop */}
       <div className="w-2/3 " id="Menu">
-        <ul className="hidden md:flex justify-end space-x-9">
+        <ul
+          className={`${isOpen ? "block fixed top-4 right-4 opacity-100 w-1/4 bg-white" : "hidden"} pl-4  md:flex md:justify-end space-x-9 `}
+        >
           <li>
             <NavLink
               to="/about"
@@ -69,8 +80,12 @@ const NavBar = () => {
         </ul>
       </div>
       {/* Hamburger Button */}
-      <button className="md:hidden">
-        <Bars3Icon className="size-12"></Bars3Icon>
+      <button className="md:hidden cursor-pointer z-20" onClick={toggleMenu}>
+        {isOpen ? (
+          <FontAwesomeIcon icon={faX} size="lg" />
+        ) : (
+          <FontAwesomeIcon icon={faBars} size="2xl" />
+        )}
       </button>
     </div>
   );
