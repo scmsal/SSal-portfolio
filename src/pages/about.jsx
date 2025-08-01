@@ -63,20 +63,17 @@ const AboutPage = () => {
         <h2 className="font-bold mb-2 mt-4">Current Focus</h2>
 
         <ul className="text-gray-600 px-4 list-disc list-inside text-md grid grid-cols-1 md:grid-cols-2 gap-1">
+          <li>Studying UI/UX principles and modern frontend design</li>
           <li>
-            Strengthening my frontend and backend skills by building real-world
+            Exploring deployment workflows and cloud-based hosting solutions
+          </li>
+          <li>
+            Learning internationalization (i18n) and web accessibility (a11y)
+            best practices
+          </li>
+          <li>
+            Advancing my development skills through hands-on, real-world
             projects
-          </li>
-          <li>
-            Exploring deployment workflows and cloud platforms for modern web
-            app hosting
-          </li>
-          <li>
-            Studying internationalization (i18n) and localization best practices
-          </li>
-          <li>
-            Learning and applying web accessibility (a11y) standards for
-            inclusive design
           </li>
         </ul>
       </div>
