@@ -10,7 +10,7 @@ const Footer = () => {
       <div>
         © {new Date().getFullYear()} Stephanie Salifu. All rights reserved.
       </div>
-      <div className="flex space-x-3 mt-2 items-center">
+      <div className="flex space-x-3 items-center">
         <a href="mailto:scm.salifu@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="2xl" alt="envelope icon" />
         </a>
