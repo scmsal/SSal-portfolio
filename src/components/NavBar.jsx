@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div
       id="NavBar"
-      className="flex items-center justify-between h-18  text-cobalt pr-5 mb-2 shadow"
+      className="flex items-center justify-between h-fit  text-cobalt pr-5 mb-2 shadow"
     >
       <NavLink to="/">
         <img
@@ -24,10 +24,28 @@ const NavBar = () => {
           className="h-14 object-contain rounded-lg mx-4 my-4 justify-end"
         ></img>
       </NavLink>
+      {/* Hamburger Button */}
+      <button className="md:hidden cursor-pointer" onClick={toggleMenu}>
+        {isOpen ? (
+          <FontAwesomeIcon
+            icon={faX}
+            size="lg"
+            className="absolute top-2 right-2"
+            title="Close menu"
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon={faBars}
+            size="2xl"
+            title="Menu"
+            className="absolute top-6 right-6"
+          />
+        )}
+      </button>
       {/* Menu - visible on desktop */}
       <div className="w-2/3 " id="Menu">
         <ul
-          className={`${isOpen ? "block fixed top-4 right-4 opacity-100 w-1/4 bg-white" : "hidden"} pl-4  md:flex md:justify-end space-x-9 `}
+          className={`${isOpen ? "block text-right pr-4" : "hidden "}  pl-4  md:flex md:justify-end md:space-x-9 `}
         >
           <li>
             <NavLink
@@ -79,14 +97,6 @@ const NavBar = () => {
           </li>
         </ul>
       </div>
-      {/* Hamburger Button */}
-      <button className="md:hidden cursor-pointer z-20" onClick={toggleMenu}>
-        {isOpen ? (
-          <FontAwesomeIcon icon={faX} size="lg" />
-        ) : (
-          <FontAwesomeIcon icon={faBars} size="2xl" />
-        )}
-      </button>
     </div>
   );
 };
