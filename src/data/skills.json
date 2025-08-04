@@ -23,7 +23,7 @@
           "Portfolio 2.0",
           "Calculator",
           "Full Stack Coursework",
-          "  replica"
+          "Webpage Replica"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Software Dev"],
         "logo": "src/assets/html.svg"
@@ -38,7 +38,7 @@
           "Portfolio 1.0",
           "Portfolio 2.0",
           "Gardening App",
-          "  replica"
+          "Webpage Replica"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Certificate"],
         "logo": "src/assets/css.svg"
@@ -141,7 +141,7 @@
           "Full Stack Coursework",
           "Calculator",
           "Portfolio 1.0",
-          "  replica"
+          "Webpage Replica"
         ],
         "logo": "src/assets/javascript.svg",
         "trainings": [
