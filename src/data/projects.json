@@ -25,7 +25,7 @@
       "Vite",
       "VS Code",
       "Postman",
-      "GitHub (Web/Desktop)"
+      "GitHub"
     ],
     "type": "e-portfolio",
     "browser": "https://mygreatlearning.com/eportfolio/stephanie-salifu",
@@ -58,10 +58,10 @@
   },
   {
     "name": "Webpage Replica",
-    "description": "A copy of the Amazon homepage built from scratch with HTML, CSS, and JavaScript.",
+    "description": "A copy of the Amazon homepage built from scratch for practice only.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "github": "https://github.com/scmsal/AMZreplica",
-    "browser": "https://scmsal.github.io/AMZreplica/",
+    "github": "",
+    "browser": "",
     "screenshot": "/project_imgs/Amazon_homepage.png"
   },
   {
@@ -90,7 +90,7 @@
   },
   {
     "name": "Codewars Kata",
-    "description": "Not a project per se, but the development of short Java programs to solve scenarios created by other users.",
+    "description": "Solutions to LeetCode-style problems created by other users on the CodeWars.com platform.",
     "skills": ["Java"],
     "github": "",
     "browser": "https://www.codewars.com/users/Code-name-go/completed_solutions",

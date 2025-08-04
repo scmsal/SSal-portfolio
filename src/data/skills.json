@@ -11,7 +11,7 @@
           "Gardening App",
           "Full Stack Coursework"
         ],
-        "trainings": ["Full Stack Software Dev"],
+        "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/react.svg"
       },
       {
@@ -40,21 +40,21 @@
           "Gardening App",
           "  replica"
         ],
-        "trainings": ["Intro to Web Dev", "Full Stack Software Dev Cert"],
+        "trainings": ["Intro to Web Dev", "Full Stack Certificate"],
         "logo": "src/assets/css.svg"
       },
       {
         "name": "Bootstrap",
         "level": 3,
         "projects": ["Gardening App"],
-        "trainings": ["Full Stack Software Dev Cert"],
+        "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/react-bootstrap.svg"
       },
       {
         "name": "Redux",
         "level": 2,
         "projects": ["Gardening App"],
-        "trainings": ["Full Stack Software Dev Cert"],
+        "trainings": ["Full Stack Certificate"],
         "logo": ""
       },
       {
@@ -62,7 +62,7 @@
         "level": 2,
         "projects": ["Portfolio", "Gardening App"],
         "trainings": [
-          "Full Stack Software Dev Cert",
+          "Full Stack Certificate",
           "Portfolio 1.0",
           "Portfolio 2.0"
         ],
@@ -85,7 +85,7 @@
         "level": 3,
         "projects": ["Glossary", "Gardening App"],
         "logo": "",
-        "trainings": ["Full Stack Software Dev Cert"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "Node.js",
@@ -93,7 +93,7 @@
         "projects": ["Glossary", "Gardening App", "Full Stack Coursework"],
         "logo": "src/assets/nodejs.svg",
         "trainings": [
-          "Full Stack Software Dev Cert",
+          "Full Stack Certificate",
           "Independent Study",
           "Pre-apprenticeship"
         ]
@@ -103,26 +103,26 @@
         "level": 2,
         "projects": ["Glossary", "Gardening App"],
         "logo": "src/assets/express.svg",
-        "trainings": ["Full Stack Software Dev Cert"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "MongoDB",
         "level": 2,
         "projects": ["Glossary", "Gardening App"],
         "logo": "src/assets/mongodb.svg",
-        "trainings": ["Full Stack Software Dev Cert"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "MySQL",
         "level": 2,
         "projects": ["Full Stack Coursework"],
         "logo": "src/assets/mysql.svg",
-        "trainings": ["Full Stack Software Dev Cert"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "PostgreSQL",
         "level": 1,
-        "projects": [""],
+        "projects": [],
         "logo": "src/assets/postgresql.svg",
         "trainings": ["Independent Study"]
       }
@@ -162,7 +162,7 @@
         "level": 1,
         "projects": [],
         "logo": "src/assets/typescript.svg",
-        "trainings": ["Full Stack Software Dev Cert", "Independent Study"]
+        "trainings": ["Full Stack Certificate", "Independent Study"]
       },
       {
         "name": "Python",
@@ -176,6 +176,25 @@
   {
     "category": "Cloud",
     "skills": [
+      {
+        "name": "Docker",
+        "level": 2,
+        "projects": [],
+        "logo": "src/assets/docker.svg",
+        "trainings": [
+          "Full Stack Certificate",
+          "Intro to Cloud Computing",
+          "OCI Foundations Associate"
+        ]
+      },
+      {
+        "name": "Vercel",
+        "level": 2,
+        "projects": ["Portfolio 2.0"],
+        "logo": "src/assets/vercel.svg",
+        "trainings": ["Independent Study"]
+      },
+
       {
         "name": "Oracle Cloud",
         "level": 2,
@@ -202,26 +221,16 @@
         "level": 1,
         "projects": [],
         "logo": "src/assets/gcp.svg",
-        "trainings": ["Full Stack Software Dev Cert"]
+        "trainings": ["Full Stack Certificate"]
       },
-      {
-        "name": "Docker",
-        "level": 2,
-        "projects": [],
-        "logo": "src/assets/docker.svg",
-        "trainings": [
-          "Full Stack Software Dev",
-          "Intro to Cloud Computing",
-          "OCI Foundations Associate"
-        ]
-      },
+
       {
         "name": "Kubernetes",
         "level": 1,
         "projects": [],
         "logo": "src/assets/kubernetes.svg",
         "trainings": [
-          "Full Stack Software Dev",
+          "Full Stack Certificate",
           "Intro to Cloud Computing",
           "OCI Foundations Associate"
         ]
@@ -232,11 +241,11 @@
     "category": "Dev Tools",
     "skills": [
       {
-        "name": "GitHub (Web/Desktop)",
+        "name": "GitHub",
         "level": 3,
         "projects": ["All"],
         "logo": "src/assets/github.svg",
-        "trainings": ["Full Stack Software Dev", "Independent Study"]
+        "trainings": ["Full Stack Certificate", "Independent Study"]
       },
       {
         "name": "VS Code",
@@ -252,12 +261,12 @@
           "Webpage Replica"
         ],
         "logo": "src/assets/vscode_eclipse.svg",
-        "trainings": ["Full Stack Software Dev", "Intro to Web Dev"]
+        "trainings": ["Full Stack Certificate", "Intro to Web Dev"]
       },
       {
         "name": "Eclipse",
         "level": 3,
-        "projects": ["Java Palindrome Checker"],
+        "projects": ["Palindrome Checker"],
         "logo": "src/assets/eclipse.svg",
         "trainings": ["Intro to Java Certificate"]
       },
@@ -271,14 +280,14 @@
           "Gardening App"
         ],
         "logo": "src/assets/postman.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "Mocha + Chai",
         "level": 2,
-        "projects": ["Glossary"],
+        "projects": ["Glossary", "Full Stack Coursework"],
         "logo": "src/assets/mocha_chai.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "WP Customization",
@@ -292,7 +301,7 @@
         "level": 2,
         "projects": ["All"],
         "logo": "src/assets/git.svg",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "Figma",
@@ -318,7 +327,7 @@
         "level": 3,
         "projects": ["Portfolio 2.0"],
         "logo": "",
-        "trainings": ["Full Stack Software Dev"]
+        "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "ChatGPT",
