@@ -15,13 +15,13 @@ const NavBar = () => {
   return (
     <div
       id="NavBar"
-      className="flex items-center justify-between h-fit  text-cobalt pr-5 mb-2 shadow"
+      className="flex items-center justify-between h-fit text-cobalt pr-5 mb-2 shadow"
     >
       <NavLink to="/">
         <img
           src="./S_purple-pink-cropped.png"
           alt="logo"
-          className="h-14 object-contain rounded-lg mx-4 my-4 justify-end"
+          className="h-14 object-contain rounded-lg mx-4 my-2 justify-end"
         ></img>
       </NavLink>
       {/* Hamburger Button */}

@@ -17,8 +17,7 @@ const AboutPage = () => {
             United States, Mexico, and Italy. I understand French and Italian,
             and with practice I could return to speaking both fluently.
           </p>
-
-          <p className="text-gray-600 mb-6 px-4 text-md text-justify">
+          <p className="text-gray-600 px-4 text-md text-justify">
             These experiences have shaped my analytical thinking, cultural
             insight, communication skills, and attention to detail. I also have
             a strong appreciation of visual design and the clear presentation of
@@ -40,7 +39,6 @@ const AboutPage = () => {
                   <span className="font-bold ">
                     {`${training.full_title || training.title} `}
                   </span>
-
                   <p className="text-gray-500">{training.type}</p>
                   <p>{training.details}</p>
                 </li>
@@ -50,8 +48,8 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="shadow pb-4 px-4">
-        <h2 className="font-bold mb-2 mt-4 text-center text-transparent bg-clip-text bg-linear-to-r from-cobalt from-20%  via-purple-500 via-50% to-pink-500 to-75%">
-          Current Focus
+        <h2 className="font-bold mb-2 mt-4 text-center text-transparent bg-clip-text bg-linear-to-r from-cobalt from-40%  via-fuchsia-500 via-60% to-pink-500 to-75% ">
+          {"> Current Focus <"}
         </h2>
 
         <ul className="text-gray-600 px-4 list-disc list-inside text-md grid grid-cols-1 md:grid-cols-2 gap-1">
