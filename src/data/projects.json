@@ -33,7 +33,7 @@
   },
   {
     "name": "Gardening App",
-    "description": "A React-Redux application with selected vegetable and herb gardening resources, originally fetching data from external APIs. I then shifted to using a local JSON file. The current phase is refactoring for MongoDB integration.",
+    "description": "A full stack application with selected vegetable and herb gardening resources. It started off as a React-Redux app fetching plant data from external APIs. I eventually used AI to create a JSON file with which I created a MongoDB database. I then built the backend to access it.",
     "skills": [
       "JavaScript",
       "React",
@@ -42,9 +42,10 @@
       "Express",
       "MongoDB",
       "Bootstrap",
-      "Google AI Studio"
+      "Google AI Studio",
+      "Vitest"
     ],
-    "github": "https://github.com/scmsal/original-projects/tree/main/garden_app",
+    "github": "https://github.com/scmsal/original-projects/tree/v2/garden_app",
     "browser": "",
     "screenshot": "/project_imgs/garden_app.png"
   },
@@ -53,7 +54,7 @@
     "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness.",
     "skills": ["HTML", "CSS", "Figma", "WP Customization"],
     "github": "",
-    "browser": "",
+    "browser": "https://gcmonitors.com",
     "screenshot": "/project_imgs/company_nav.png"
   },
   {

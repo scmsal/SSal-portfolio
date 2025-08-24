@@ -86,7 +86,8 @@
       "Kubernetes",
       "TailwindCSS",
       "PostgreSQL",
-      "TypeScript"
+      "TypeScript",
+      "Vitest"
     ]
   }
 ]

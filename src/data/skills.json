@@ -275,12 +275,18 @@
         "level": 3,
         "projects": [
           "Glossary",
-          "Garden",
+          "Gardening App",
           "Full Stack Coursework",
           "Gardening App"
         ],
         "logo": "src/assets/postman.svg",
         "trainings": ["Full Stack Certificate"]
+      },
+      {
+        "name": "Vitest",
+        "level": 2,
+        "projects": ["Gardening App"],
+        "trainings": ["Independent Study"]
       },
       {
         "name": "Mocha + Chai",
