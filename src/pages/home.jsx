@@ -3,9 +3,6 @@ import NavBar from "../components/NavBar";
 
 const HomePage = () => {
   return (
-    // <div className="bg-[url(./assets/boliviainteligente-8H8Y5emrdO0-unsplash-orig.jpg)] bg-cover bg-center">
-    // <div className="bg-linear-to-r/hsl from-indigo-900 from-20%  via-purple-500 via-75% to-pink-500 to-90%">
-
     <main className="flex flex-grow flex-col justify-center items-start">
       <div className="flex px-8 pt-8 ">
         <div className="flex flex-col items-start justify-center w-2/3">
