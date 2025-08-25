@@ -54,7 +54,7 @@ const AboutPage = () => {
 
         <ul className="text-gray-600 px-4 list-disc list-inside text-md grid grid-cols-1 md:grid-cols-2 gap-1">
           <li>
-            Studying modern frontend design techniques and UI/UX principles
+            Studying modern frontend design, development, and testing techniques
           </li>
           <li>
             Exploring deployment workflows and cloud-based hosting solutions
