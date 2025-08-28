@@ -327,12 +327,12 @@
       {
         "name": "ChatGPT",
         "level": 3,
-        "projects": [""],
+        "projects": ["Gardening App", "Portfolio 2.0"],
         "logo": "",
         "trainings": ["Independent Study"]
       },
       {
-        "name": "Gemini/Google AI Studio",
+        "name": "Gemini",
         "level": 3,
         "projects": ["Gardening App"],
         "logo": "",
