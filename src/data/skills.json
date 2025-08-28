@@ -5,12 +5,7 @@
       {
         "name": "React",
         "level": 3,
-        "projects": [
-          "Portfolio 2.0",
-          "Glossary",
-          "Gardening App",
-          "Full Stack Coursework"
-        ],
+        "projects": ["Portfolio 2.0", "Gardening App", "Full Stack Coursework"],
         "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/react.svg"
       },
@@ -46,7 +41,7 @@
       {
         "name": "Bootstrap",
         "level": 3,
-        "projects": ["Gardening App"],
+        "projects": ["Gardening App", "Full Stack Coursework"],
         "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/react-bootstrap.svg"
       },
@@ -83,14 +78,14 @@
       {
         "name": "REST APIs",
         "level": 3,
-        "projects": ["Glossary", "Gardening App"],
+        "projects": ["Gardening App"],
         "logo": "",
         "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "Node.js",
         "level": 3,
-        "projects": ["Glossary", "Gardening App", "Full Stack Coursework"],
+        "projects": ["Gardening App", "Full Stack Coursework"],
         "logo": "src/assets/nodejs.svg",
         "trainings": [
           "Full Stack Certificate",
@@ -101,14 +96,14 @@
       {
         "name": "Express",
         "level": 2,
-        "projects": ["Glossary", "Gardening App"],
+        "projects": ["Gardening App"],
         "logo": "src/assets/express.svg",
         "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "MongoDB",
         "level": 2,
-        "projects": ["Glossary", "Gardening App"],
+        "projects": ["Gardening App"],
         "logo": "src/assets/mongodb.svg",
         "trainings": ["Full Stack Certificate"]
       },
@@ -136,7 +131,6 @@
         "level": 3,
         "projects": [
           "Portfolio 2.0",
-          "Glossary",
           "Gardening App",
           "Full Stack Coursework",
           "Calculator",
@@ -253,7 +247,7 @@
         "projects": [
           "Portfolio 2.0",
           "Portfolio 1.0",
-          "Glossary",
+
           "Gardening App",
           "Full Stack Coursework",
           "Java Palindrome Checker",
@@ -273,12 +267,7 @@
       {
         "name": "Postman",
         "level": 3,
-        "projects": [
-          "Glossary",
-          "Gardening App",
-          "Full Stack Coursework",
-          "Gardening App"
-        ],
+        "projects": ["Gardening App", "Full Stack Coursework", "Gardening App"],
         "logo": "src/assets/postman.svg",
         "trainings": ["Full Stack Certificate"]
       },
@@ -291,7 +280,7 @@
       {
         "name": "Mocha + Chai",
         "level": 2,
-        "projects": ["Glossary", "Full Stack Coursework"],
+        "projects": ["Full Stack Coursework"],
         "logo": "src/assets/mocha_chai.svg",
         "trainings": ["Full Stack Certificate"]
       },
@@ -305,14 +294,14 @@
       {
         "name": "Git (CLI)",
         "level": 2,
-        "projects": ["All"],
+        "projects": ["Gardening App"],
         "logo": "src/assets/git.svg",
         "trainings": ["Full Stack Certificate"]
       },
       {
         "name": "Figma",
         "level": 2,
-        "projects": ["GoDaddy WordPress Migration"],
+        "projects": ["GoDaddy WordPress Migration", "Gardening App"],
         "logo": "src/assets/figma.svg",
         "trainings": ["MLH Event", "Independent Study"]
       },
@@ -331,7 +320,7 @@
       {
         "name": "Copilot",
         "level": 3,
-        "projects": ["Portfolio 2.0"],
+        "projects": ["Portfolio 2.0", "Gardening App"],
         "logo": "",
         "trainings": ["Full Stack Certificate"]
       },
@@ -343,23 +332,16 @@
         "trainings": ["Independent Study"]
       },
       {
-        "name": "Gemini",
+        "name": "Gemini/Google AI Studio",
         "level": 3,
-        "projects": [],
-        "logo": "",
-        "trainings": ["MLH Event"]
-      },
-      {
-        "name": "Google AI Studio",
-        "level": 2,
         "projects": ["Gardening App"],
-        "logo": [],
-        "trainings": ["MLH Event"]
+        "logo": "",
+        "trainings": ["MLH Event", "Independent Study"]
       },
       {
         "name": "Canva AI",
         "level": 2,
-        "projects": ["Portfolio 2.0"],
+        "projects": ["Portfolio 2.0", "Gardening App"],
         "logo": "",
         "trainings": ["Independent Study"]
       }
