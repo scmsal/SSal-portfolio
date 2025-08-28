@@ -45,9 +45,9 @@
       "Google AI Studio",
       "Vitest"
     ],
-    "github": "https://github.com/scmsal/original-projects/tree/v2/garden_app",
-    "browser": "",
-    "screenshot": "/project_imgs/garden_app.png"
+    "github": "https://github.com/scmsal/gardening-app",
+    "browser": "https://gardening-app-gules.vercel.app",
+    "screenshot": "/project_imgs/cabbage_detail_page.png"
   },
   {
     "name": "WordPress Migration",
