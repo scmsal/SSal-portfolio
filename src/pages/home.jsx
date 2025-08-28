@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 const HomePage = () => {
   return (
     <main className="flex flex-grow flex-col justify-center items-start">
-      <div className="grid grid-cols-2 grid-rows-2 md:grid-rows-1 px-4 md:px-8 pt-4 md:pt-8 ">
+      <div className="flex flex-col md:flex-row px-4 md:px-8 pt-4 md:pt-8 ">
         <div className="col-span-2  md:col-span-1">
           <div>
             <span className="font-bold uppercase text-4xl md:text-6xl font-upper text-transparent bg-clip-text bg-linear-to-r from-cobalt from-10%  via-purple-500 via-75% to-pink-500 to-90%">
@@ -22,7 +22,7 @@ const HomePage = () => {
             </p>
           </div>
         </div>
-        <div className="col-span-2 md:col-span-1 justify-items-end ">
+        <div className="col-span-2 md:col-span-1 justify-items-center md:justify-items-end ">
           <img
             src="/project_imgs/wordcloud-2.png"
             alt="developer word cloud"
