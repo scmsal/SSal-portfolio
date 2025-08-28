@@ -3,9 +3,9 @@ import trainings from "../data/trainings.json";
 
 const AboutPage = () => {
   return (
-    <main className="flex-grow px-4 md:px-15">
-      <div className="flex flex-col md:flex-row space-x-4 md:space-x-10 space-y-4 md:space-y-0">
-        <div className="flex flex-col p-4 shadow w-full md:w-1/3 ">
+    <main className="flex-grow px-4 md:px-15 pt-4">
+      <div className="flex flex-col lg:flex-row space-x-4 lg:space-x-10 space-y-4 lg:space-y-0">
+        <div className="flex flex-col p-4 shadow w-full lg:w-1/3 ">
           <h2 className="font-bold mb-4 text-center">From Languages to Code</h2>
           {/* <h2 className="font-bold text-2xl text-gray-500">Education</h2> */}
           <p className="text-gray-600 mb-6 px-4 text-md text-justify">
@@ -26,7 +26,7 @@ const AboutPage = () => {
           </p>
         </div>
 
-        <div className="shadow md:pl-15 md:pr-0 pt-4 px-20 w-full md:px-4 md:w-2/3">
+        <div className="shadow pl-4 lg:pl-15 md:pr-0 pt-4 w-full lg:px-4 lg:w-2/3">
           <h2 className="font-bold mb-2 text-center">Tech Training</h2>
           <p className="text-gray-600"></p>
           <ul className="list-image-none grid grid-cols-1 sm:grid-cols-2 gap-1.5 mb-0">

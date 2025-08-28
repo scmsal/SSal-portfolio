@@ -3,9 +3,9 @@ import React from "react";
 const ContactPage = () => {
   return (
     <main className="flex-grow flex pt-6 justify-center">
-      <div className="flex flex-col justify-center px-20 mt-30 w-2xl h-60 pt-4 shadow">
+      <div className="flex flex-col justify-center mx-10 lg:mx-20 mt-30 w-lg lg:w-2xl h-60 p-4 shadow">
         <h1 className="mb-4">Contact me</h1>
-        <p className="text-lg">
+        <p className="text-md lg:text-lg">
           If you have any questions or would like to connect, you can reach me
           at{" "}
           <a
