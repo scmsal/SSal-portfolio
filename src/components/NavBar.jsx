@@ -21,6 +21,7 @@ const NavBar = () => {
         <img
           src="./S_purple-pink-cropped.png"
           alt="logo"
+          title="Home"
           className="h-14 object-contain rounded-lg mx-4 my-2 justify-end"
         ></img>
       </NavLink>
