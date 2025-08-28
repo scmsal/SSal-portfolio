@@ -51,10 +51,10 @@
   },
   {
     "name": "WordPress Migration",
-    "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness.",
+    "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness. Link available upon request.",
     "skills": ["HTML", "CSS", "Figma", "WP Customization"],
     "github": "",
-    "browser": "https://gcmonitors.com",
+    "browser": "",
     "screenshot": "/project_imgs/company_nav.png"
   },
   {
