@@ -7,9 +7,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer className="text-sm text-cobalt px-12 py-2 flex flex-row justify-between items-center mb-4">
-      <div>
-        © {new Date().getFullYear()} Stephanie Salifu. All rights reserved.
-      </div>
+      <div>© {new Date().getFullYear()} Stephanie Salifu</div>
       <div className="flex space-x-3 items-center">
         <a href="mailto:scm.salifu@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="2xl" alt="envelope icon" />
