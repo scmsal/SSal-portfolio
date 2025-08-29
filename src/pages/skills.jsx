@@ -40,7 +40,7 @@ const SkillsPage = () => {
 
   return (
     <main className="px-4 lg:px-8 flex flex-grow">
-      <div className="">
+      <div>
         {/* The page is divided into three columns, with the third column actually being columns 3 (top) and 4(bottom) on large screens */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-2 px-2 lg:px-4">
           {/* Tech Stack - columns 1 and 2*/}
@@ -212,7 +212,7 @@ const SkillsPage = () => {
               </div>
 
               {/* Column 3 bottom "PROJECTS" */}
-              <div className="flex flex-col justify-around">
+              <div className="flex flex-col">
                 <div className="mb-3">
                   <h2 className="text-2xl md:text-3xl mb-3">...applied in:</h2>
                   <div className="flex flex-wrap justify-left md:gap-2">
@@ -256,7 +256,7 @@ const SkillsPage = () => {
                   })}
                 </div>
               </div>
-              <div className="text-gray-700 mt-4 border-l-4 border-fuchsia-700 pl-2">
+              <div className="text-gray-700 border-l-4 border-fuchsia-700 pl-2">
                 Click a skill, training, or project to see associations. Click
                 again to deselect.
               </div>
