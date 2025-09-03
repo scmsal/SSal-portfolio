@@ -59,14 +59,14 @@
   {
     "title": "CCC Pre-apprenticeship",
     "details": "(2024, Creating Coding Careers)",
-    "type": "courses on JS and professional skills",
+    "type": "courses on JS, Agile, professional skills",
     "skills": ["JavaScript"]
   },
   {
     "title": "OCI Generative AI",
     "details": "(2024, Oracle)",
     "type": "course + certification",
-    "skills": ["Oracle Cloud", "Generative AI", "Python"]
+    "skills": ["Oracle Cloud", "LangChain", "Python"]
   },
 
   {

@@ -338,12 +338,20 @@
         "logo": "",
         "trainings": ["MLH Event", "Independent Study"]
       },
+
       {
         "name": "Canva AI",
         "level": 2,
         "projects": ["Portfolio 2.0", "Gardening App"],
         "logo": "",
         "trainings": ["Independent Study"]
+      },
+      {
+        "name": "LangChain",
+        "level": 1,
+        "projects": [],
+        "logo": "",
+        "trainings": ["OCI Generative AI"]
       }
     ]
   }
