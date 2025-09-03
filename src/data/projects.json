@@ -60,7 +60,7 @@
   {
     "name": "Webpage Replica",
     "description": "A copy of the Amazon homepage built from scratch for practice only.",
-    "skills": ["HTML", "CSS", "JavaScript"],
+    "skills": ["HTML", "CSS"],
     "github": "",
     "browser": "",
     "screenshot": "/project_imgs/Amazon_homepage.png"
