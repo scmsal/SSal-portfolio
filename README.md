@@ -18,8 +18,7 @@ This version replaces the 2022 v1 (JavaScript, HTML, CSS) with an interactive, m
 
 ## Features
 
-### Skills
-- Filterable skill categories  
+### Skills  
 - Shows relationships between skills, projects, and trainings  
 - Provides an at-a-glance view of technical breadth and depth  
 
@@ -27,10 +26,10 @@ This version replaces the 2022 v1 (JavaScript, HTML, CSS) with an interactive, m
 - Displays selected projects with:
   - Description and scope  
   - Technologies used  
-  - Live demo or repository links  
+  - Live demo and/or repository links 
 
 ### About
-- Professional bio emphasizing frontend and full stack expertise  
+- Professional biography 
 - Overview of trainings and certifications  
 - Current focus areas: React, MongoDB, i18n, accessibility, AI-enhanced apps
 
@@ -42,8 +41,8 @@ This version replaces the 2022 v1 (JavaScript, HTML, CSS) with an interactive, m
 
 ### Installation
 ```bash
-git clone https://github.com/yourusername/portfolio-v2.git
-cd portfolio-v2
+git clone https://github.com/scmsal/SSal-portfolio.git
+cd SSal-portfolio
 npm install
 npm start
 ```
@@ -53,7 +52,6 @@ Deployed on Vercel with an optimized React build
 
 ## Future Enhancements
 
-- Advanced skill-project visualizations
 - Expanded project case studies with technical challenges and solutions
 - Dark mode
 - Additional multilingual and i18n features
