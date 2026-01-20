@@ -2,7 +2,7 @@
   {
     "name": "Portfolio 2.0",
     "description": "The website you are currently viewing. Instead of just updating my original portfolio, I decided to completely rebuild it from scratch using newly developed skills. It is my first time learning and implementing Tailwind CSS.",
-    "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS"],
+    "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS", "JavaScript"],
     "github": "",
     "browser": "",
     "screenshot": "/favicon_wide.png"
