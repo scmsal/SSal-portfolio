@@ -1,7 +1,7 @@
 [
   {
     "name": "Rental Revenue App",
-    "description": "A privacy-first, browser-based application that helps short-term rental hosts accurately report occupancy taxes by calculating earnings by property and length of stay, without sending financial data to a server. Built with Next.js, TypeScript, PGLite, Drizzle ORM, and PapaParse. In progress.",
+    "description": "A privacy-first, browser-based application that helps short-term rental hosts accurately report occupancy taxes by calculating earnings by property and length of stay, without sending financial data to a server. Built with Next.js, TypeScript, PGLite (a PostgreSQL-compatible, in-browser database), Drizzle ORM, and PapaParse. In progress.",
     "skills": ["NextJS", "Tailwind CSS", "TypeScript", "React", "CSS"],
     "screenshot": "/project_imgs/Screenshot rental prop.png"
   },
