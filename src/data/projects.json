@@ -51,8 +51,9 @@
   },
   {
     "name": "Rental Revenue App",
-    "description": "A privacy-first, browser-based app that simplifies rental occupancy tax reporting by calculating earnings by property and length of stay. Built with NextJS, TypeScript, PGlite, Drizzle ORM, and Papaparse.",
-    "skills": ["NextJS", "Tailwind CSS", "TypeScript", "React", "CSS"]
+    "description": "A privacy-first, browser-based application that helps short-term rental hosts accurately report occupancy taxes by calculating earnings by property and length of stay, without sending financial data to a server. Built with Next.js, TypeScript, PGLite, Drizzle ORM, and PapaParse.",
+    "skills": ["NextJS", "Tailwind CSS", "TypeScript", "React", "CSS"],
+    "screenshot": "/project_imgs/Screenshot rental prop.png"
   },
   {
     "name": "WordPress Migration",
