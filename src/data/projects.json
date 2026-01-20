@@ -50,6 +50,11 @@
     "screenshot": "/project_imgs/cabbage_detail_page.png"
   },
   {
+    "name": "Rental Revenue App",
+    "description": "A privacy-first, browser-based app that simplifies rental occupancy tax reporting by calculating earnings by property and length of stay. Built with NextJS, TypeScript, PGlite, Drizzle ORM, and Papaparse.",
+    "skills": ["NextJS", "Tailwind CSS", "TypeScript", "React", "CSS"]
+  },
+  {
     "name": "WordPress Migration",
     "description": "A company website rebuilt in GoDaddy-hosted WordPress. After exploring custom theme development and Figma-based replication, I customized a base theme using Bootstrap Blocks, HTML, and CSS to match the original design and ensure full mobile responsiveness. Link available upon request.",
     "skills": ["HTML", "CSS", "Figma", "WP Customization"],
