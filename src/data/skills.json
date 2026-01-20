@@ -118,6 +118,13 @@
         "trainings": ["Full Stack Certificate"]
       },
       {
+        "name": "PGLite",
+        "level": 2,
+        "projects": ["Rental Revenue App"],
+        "logo": "src/assets/pglite-icon-light.svg",
+        "trainings": ["Independent Study"]
+      },
+      {
         "name": "PostgreSQL",
         "level": 1,
         "projects": [],
@@ -137,7 +144,8 @@
           "Gardening App",
           "Full Stack Coursework",
           "Calculator",
-          "Portfolio 1.0"
+          "Portfolio 1.0",
+          "Rental Revenue App"
         ],
         "logo": "src/assets/javascript.svg",
         "trainings": [
@@ -323,14 +331,14 @@
       {
         "name": "ChatGPT",
         "level": 3,
-        "projects": ["Gardening App", "Portfolio 2.0"],
+        "projects": ["Gardening App", "Portfolio 2.0", "Rental Revenue App"],
         "logo": "",
         "trainings": ["Independent Study"]
       },
       {
         "name": "Gemini",
         "level": 3,
-        "projects": ["Gardening App"],
+        "projects": ["Gardening App", "Rental Revenue App"],
         "logo": "",
         "trainings": ["MLH Event", "Independent Study"]
       },
