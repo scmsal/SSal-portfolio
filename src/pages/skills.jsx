@@ -132,7 +132,7 @@ const SkillsPage = () => {
                                               {training}
                                             </li>
                                           );
-                                        }
+                                        },
                                       )}
                                     </ul>
                                   </div>
@@ -153,7 +153,7 @@ const SkillsPage = () => {
                                                 {project}
                                               </li>
                                             );
-                                          }
+                                          },
                                         )}
                                       </ul>
                                     </div>
@@ -222,7 +222,7 @@ const SkillsPage = () => {
                         in which I used these skills.
                       </span>
                     </div>
-                    <NavLink to="/about" className="">
+                    <NavLink to="/projects" className="">
                       <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}
                         className="text-fuchsia-700  w-5 h-5"

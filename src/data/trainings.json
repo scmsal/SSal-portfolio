@@ -59,21 +59,21 @@
   {
     "title": "CCC Pre-apprenticeship",
     "details": "(2024, Creating Coding Careers)",
-    "type": "courses on JS and professional skills",
+    "type": "courses on JS, Agile, professional skills",
     "skills": ["JavaScript"]
   },
   {
     "title": "OCI Generative AI",
     "details": "(2024, Oracle)",
     "type": "course + certification",
-    "skills": ["Oracle Cloud", "Generative AI", "Python"]
+    "skills": ["Oracle Cloud", "LangChain", "Python"]
   },
 
   {
     "title": "MLH Events",
     "details": "(2025, Major League Hacking)",
     "type": "Global Hack Week live sessions, challenges",
-    "skills": ["Figma", "Python", "GitHub"]
+    "skills": ["Figma", "Python", "GitHub", "Gemini"]
   },
 
   {

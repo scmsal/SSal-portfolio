@@ -48,25 +48,28 @@
       {
         "name": "Redux",
         "level": 2,
-        "projects": ["Gardening App"],
+        "projects": ["Gardening App", "Full Stack Coursework"],
         "trainings": ["Full Stack Certificate"],
         "logo": ""
       },
       {
         "name": "Vite",
         "level": 2,
-        "projects": ["Portfolio", "Gardening App"],
-        "trainings": [
-          "Full Stack Certificate",
-          "Portfolio 1.0",
-          "Portfolio 2.0"
-        ],
+        "projects": ["Portfolio 2.0", "Gardening App"],
+        "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/vite.svg"
       },
       {
-        "name": "Tailwind CSS",
+        "name": "NextJS",
         "level": 2,
-        "projects": ["Portfolio 2.0"],
+        "projects": ["Rental Revenue App"],
+        "trainings": ["Independent Study"],
+        "logo": "src/asset/nextjs-icon-light-background.png"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": 3,
+        "projects": ["Portfolio 2.0", "Rental Revenue App"],
         "trainings": ["Independent Study"],
         "logo": "src/assets/tailwindcss.svg"
       }
@@ -134,8 +137,7 @@
           "Gardening App",
           "Full Stack Coursework",
           "Calculator",
-          "Portfolio 1.0",
-          "Webpage Replica"
+          "Portfolio 1.0"
         ],
         "logo": "src/assets/javascript.svg",
         "trainings": [
@@ -153,8 +155,8 @@
       },
       {
         "name": "TypeScript",
-        "level": 1,
-        "projects": [],
+        "level": 2,
+        "projects": ["Rental Revenue App"],
         "logo": "src/assets/typescript.svg",
         "trainings": ["Full Stack Certificate", "Independent Study"]
       },
@@ -291,13 +293,7 @@
         "logo": "src/assets/wordpress.svg",
         "trainings": ["Independent Study"]
       },
-      {
-        "name": "Git (CLI)",
-        "level": 2,
-        "projects": ["Gardening App"],
-        "logo": "src/assets/git.svg",
-        "trainings": ["Full Stack Certificate"]
-      },
+
       {
         "name": "Figma",
         "level": 2,
@@ -338,12 +334,20 @@
         "logo": "",
         "trainings": ["MLH Event", "Independent Study"]
       },
+
       {
         "name": "Canva AI",
         "level": 2,
         "projects": ["Portfolio 2.0", "Gardening App"],
         "logo": "",
         "trainings": ["Independent Study"]
+      },
+      {
+        "name": "LangChain",
+        "level": 1,
+        "projects": [],
+        "logo": "",
+        "trainings": ["OCI Generative AI"]
       }
     ]
   }
