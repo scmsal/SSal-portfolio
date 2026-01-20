@@ -87,7 +87,10 @@
       "TailwindCSS",
       "PostgreSQL",
       "TypeScript",
-      "Vitest"
+      "Vitest",
+      "PGLite",
+      "NextJS",
+      "Tailwind CSS"
     ]
   }
 ]
