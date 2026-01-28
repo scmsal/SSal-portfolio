@@ -1,7 +1,7 @@
 [
   {
     "name": "Rental Revenue App",
-    "description": "A privacy-first, browser-based application that helps short-term rental hosts accurately report occupancy taxes by calculating earnings by property and length of stay, without sending financial data to a server. Built with Next.js, TypeScript, PGLite (a PostgreSQL-compatible, in-browser database), Drizzle ORM, and PapaParse. In progress.",
+    "description": "A privacy-first, browser-based application that helps short-term rental hosts accurately report occupancy taxes by calculating earnings by property and length of stay, without sending financial data to a server. Built with PGLite (a PostgreSQL-compatible, in-browser database), Drizzle ORM, and PapaParse. In progress.",
     "skills": [
       "NextJS",
       "Tailwind CSS",
@@ -11,7 +11,7 @@
       "PGLite",
       "JavaScript"
     ],
-    "screenshot": "/project_imgs/Screenshot rental prop.png"
+    "screenshot": "/project_imgs/RentalTaxes Step1.png"
   },
   {
     "name": "Gardening App",
@@ -35,7 +35,7 @@
     "name": "Portfolio 2.0",
     "description": "The website you are currently viewing. Instead of just updating my original portfolio, I decided to completely rebuild it from scratch using newly developed skills. It is my first time learning and implementing Tailwind CSS.",
     "skills": ["React", "TailwindCSS", "Vite", "HTML", "CSS", "JavaScript"],
-    "github": "",
+    "github": "https://github.com/scmsal/SSal-portfolio",
     "browser": "",
     "screenshot": "/favicon_wide.png"
   },
