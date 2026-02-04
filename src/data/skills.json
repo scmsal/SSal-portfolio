@@ -5,7 +5,12 @@
       {
         "name": "React",
         "level": 3,
-        "projects": ["Portfolio 2.0", "Gardening App", "Full Stack Coursework"],
+        "projects": [
+          "Portfolio 2.0",
+          "Gardening App",
+          "Full Stack Coursework",
+          "Rental Revenue App"
+        ],
         "trainings": ["Full Stack Certificate"],
         "logo": "src/assets/react.svg"
       },
@@ -33,7 +38,8 @@
           "Portfolio 1.0",
           "Portfolio 2.0",
           "Gardening App",
-          "Webpage Replica"
+          "Webpage Replica",
+          "Rental Revenue App"
         ],
         "trainings": ["Intro to Web Dev", "Full Stack Certificate"],
         "logo": "src/assets/css.svg"
@@ -194,7 +200,7 @@
       {
         "name": "Vercel",
         "level": 2,
-        "projects": ["Portfolio 2.0"],
+        "projects": ["Portfolio 2.0", "Gardening App"],
         "logo": "src/assets/vercel.svg",
         "trainings": ["Independent Study"]
       },
@@ -257,12 +263,12 @@
         "projects": [
           "Portfolio 2.0",
           "Portfolio 1.0",
-
           "Gardening App",
           "Full Stack Coursework",
           "Java Palindrome Checker",
           "Calculator",
-          "Webpage Replica"
+          "Webpage Replica",
+          "Rental Revenue App"
         ],
         "logo": "src/assets/vscode_eclipse.svg",
         "trainings": ["Full Stack Certificate", "Intro to Web Dev"]
@@ -277,7 +283,7 @@
       {
         "name": "Postman",
         "level": 3,
-        "projects": ["Gardening App", "Full Stack Coursework", "Gardening App"],
+        "projects": ["Gardening App", "Full Stack Coursework"],
         "logo": "src/assets/postman.svg",
         "trainings": ["Full Stack Certificate"]
       },

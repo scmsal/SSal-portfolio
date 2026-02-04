@@ -25,7 +25,9 @@
       "MongoDB",
       "Bootstrap",
       "Google AI Studio",
-      "Vitest"
+      "Vitest",
+      "Vite",
+      "Postman"
     ],
     "github": "https://github.com/scmsal/gardening-app",
     "browser": "https://gardening-app-gules.vercel.app",
