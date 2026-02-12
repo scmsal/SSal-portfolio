@@ -11,7 +11,8 @@
       "PGLite",
       "JavaScript"
     ],
-    "screenshot": "/project_imgs/RentalTaxes Step1.png"
+    "screenshot": "/project_imgs/RentalTaxes Step1.png",
+    "github": "https://github.com/scmsal/nextProject/tree/main/rentalTaxes"
   },
   {
     "name": "Gardening App",
