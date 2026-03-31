@@ -90,7 +90,14 @@
       "Vitest",
       "PGLite",
       "NextJS",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Claude"
     ]
+  },
+  {
+    "title": "MentorCruise",
+    "details": "Oct '25 – Mar '26",
+    "type": "project architecture, pair programming, consultation",
+    "skills": ["TypeScript", "NextJS", "React", "JavaScript", "PGLite"]
   }
 ]

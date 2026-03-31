@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "../components/NavBar";
 
 const HomePage = () => {
   return (
@@ -8,21 +7,21 @@ const HomePage = () => {
         <div className="col-span-2  md:col-span-1">
           <div>
             <span className="font-bold uppercase text-4xl md:text-6xl font-upper text-transparent bg-clip-text bg-linear-to-r from-cobalt from-10%  via-purple-500 via-75% to-pink-500 to-90%">
-              Frontend developer
+              Full Stack Developer
             </span>
           </div>
           <div className="text-lg md:text-xl mb-5">
-            <div className="font-bold mb-4">
-              with full stack exposure and a growth mindset
-            </div>
+            {/* <div className="font-bold mb-4">
+              Building clear, data-driven web applications with React and modern
+              JavaScript.
+            </div> */}
             <ul className="text-gray-500 list-none">
-              <li>
-                Focused on building clean, responsive UIs with React and
-                Tailwind.
+              <li className="mb-1.5 mt-2 text-cobalt">
+                TypeScript | React | SQL | Docker | AI-assisted development
               </li>
-              <li>
-                Actively deepening skills in frontend and backend technologies,
-                testing, and deployment.
+              <li className="mb-1.5 mt-2">
+                Building practical web applications with clean interfaces and
+                structured data workflows.
               </li>
             </ul>
           </div>

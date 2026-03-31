@@ -39,7 +39,7 @@ const SkillsPage = () => {
   };
 
   return (
-    <main className="px-4 lg:px-8 flex flex-grow">
+    <main className="px-4 lg:px-6 flex flex-grow">
       <div>
         {/* The page is divided into three columns, with the third column actually being columns 3 (top) and 4(bottom) on large screens */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-2 px-2 lg:px-4">
