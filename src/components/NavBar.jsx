@@ -15,7 +15,7 @@ const NavBar = () => {
   return (
     <div
       id="NavBar"
-      className="flex items-center justify-between h-fit text-cobalt pr-5 mb-2 shadow"
+      className="flex items-center justify-between h-fit text-cobalt pr-5 mb-2 border-b border-gray-400"
     >
       <NavLink to="/">
         <img

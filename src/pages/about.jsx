@@ -47,25 +47,27 @@ const AboutPage = () => {
           </ul>
         </div>
       </div>
-      <div className="shadow pb-4 px-4">
+      <div className="shadow pb-4 px-4 max-w-3/4 mx-auto">
         <h2 className="font-bold mb-2 mt-4 text-center text-transparent bg-clip-text bg-linear-to-r from-cobalt from-40%  via-fuchsia-500 via-60% to-pink-500 to-75% ">
           {"> Current Focus <"}
         </h2>
 
-        <ul className="text-gray-600 px-4 list-disc list-inside text-md grid grid-cols-1 md:grid-cols-2 gap-1">
+        <ul className="text-gray-600 px-4 list-disc list-inside text-md mx-auto ">
           <li>
-            Studying modern frontend design, development, and testing techniques
+            Building web apps with React and Next.js around clear interfaces and
+            structured data workflows
           </li>
           <li>
-            Exploring deployment workflows and cloud-based hosting solutions
+            Developing real-world projects, including a rental income reporting
+            tool and a full-stack gardening app
           </li>
           <li>
-            Learning internationalization (i18n) and web accessibility (a11y)
-            best practices
+            Improving data handling and reporting logic for accurate,
+            decision-ready information
           </li>
           <li>
-            Advancing my development skills through hands-on, real-world
-            projects
+            Expanding experience with deployment, testing, and scalable
+            application structure
           </li>
         </ul>
       </div>

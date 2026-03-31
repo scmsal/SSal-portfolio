@@ -45,6 +45,13 @@
         "logo": "src/assets/css.svg"
       },
       {
+        "name": "Tailwind CSS",
+        "level": 3,
+        "projects": ["Portfolio 2.0", "Rental Revenue App"],
+        "trainings": ["Independent Study"],
+        "logo": "src/assets/tailwindcss.svg"
+      },
+      {
         "name": "Bootstrap",
         "level": 3,
         "projects": ["Gardening App", "Full Stack Coursework"],
@@ -71,13 +78,6 @@
         "projects": ["Rental Revenue App"],
         "trainings": ["Independent Study"],
         "logo": "src/asset/nextjs-icon-light-background.png"
-      },
-      {
-        "name": "Tailwind CSS",
-        "level": 3,
-        "projects": ["Portfolio 2.0", "Rental Revenue App"],
-        "trainings": ["Independent Study"],
-        "logo": "src/assets/tailwindcss.svg"
       }
     ]
   },
@@ -132,7 +132,7 @@
       },
       {
         "name": "PostgreSQL",
-        "level": 1,
+        "level": 2,
         "projects": [],
         "logo": "src/assets/postgresql.svg",
         "trainings": ["Independent Study"]
@@ -338,6 +338,13 @@
         "name": "ChatGPT",
         "level": 3,
         "projects": ["Gardening App", "Portfolio 2.0", "Rental Revenue App"],
+        "logo": "",
+        "trainings": ["Independent Study"]
+      },
+      {
+        "name": "Claude",
+        "level": 3,
+        "projects": [],
         "logo": "",
         "trainings": ["Independent Study"]
       },
